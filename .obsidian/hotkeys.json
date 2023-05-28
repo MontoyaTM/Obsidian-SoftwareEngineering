@@ -1,0 +1,43 @@
+{
+  "colored-text:get-color-input": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F1"
+    }
+  ],
+  "colored-text:add-text": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F2"
+    }
+  ],
+  "execute-code:run-all-code-blocks-in-file": [],
+  "execute-code:code-execute-open-manage-executors": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F6"
+    }
+  ],
+  "colored-text:change-color-backwards": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F3"
+    }
+  ],
+  "colored-text:change-color-forward": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F4"
+    }
+  ]
+}

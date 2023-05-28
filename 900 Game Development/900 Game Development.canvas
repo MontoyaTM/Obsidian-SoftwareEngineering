@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"Game Development","id":"b63a78cf74d8f2ca","x":-120,"y":-40,"width":250,"height":60,"color":"1"},
+		{"type":"link","url":"https://youtu.be/2JCG4fCmeHk","id":"8005ba4964e79f45","x":-640,"y":80,"width":480,"height":310},
+		{"type":"link","url":"https://youtu.be/LfTiws-0Vss","id":"d85adeb20ead80ec","x":-640,"y":425,"width":480,"height":310},
+		{"type":"link","url":"https://youtu.be/OqwQBWEzcxU","id":"796f6daf531acd89","x":-640,"y":770,"width":480,"height":310},
+		{"type":"link","url":"https://youtu.be/04oQ2jOUjkU","id":"06e703c90e9356fb","x":-640,"y":1120,"width":480,"height":310},
+		{"type":"file","file":"Media/PNG/Pasted image 20230523085542.png","id":"45792e55fadd3f44","x":-120,"y":73,"width":1640,"height":1372},
+		{"type":"file","file":"Media/PNG/Pasted image 20230523085801.png","id":"d65af158e592365f","x":1598,"y":73,"width":2058,"height":1372},
+		{"type":"link","url":"https://youtu.be/LJOahj6HJMQ","id":"7f6f0b208221dfa8","x":-640,"y":1480,"width":480,"height":280}
+	],
+	"edges":[]
+}

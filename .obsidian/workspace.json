@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "918ce51d2869ca91",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aa716f11947cae2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e63f431806b3e710",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 Index/000 Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3764fd8e778febca",
+    "type": "split",
+    "children": [
+      {
+        "id": "584748f400d30d31",
+        "type": "tabs",
+        "dimension": 60.192307692307686,
+        "children": [
+          {
+            "id": "2a029b7471cc554d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee53873b341ec26f",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://auth0.openai.com/authorize?client_id=TdJIcbe16WoTHtN95nyywh5E4yOo6ItG&scope=openid%20email%20profile%20model.request%20model.read%20organization.read%20organization.write&response_type=code&redirect_uri=https%3A%2F%2Fchat.openai.com%2Fapi%2Fauth%2Fcallback%2Fauth0&audience=https%3A%2F%2Fapi.openai.com%2Fv1&prompt=login&state=uNX5zFUC966boc4qcqayEqv9Fah4Aj09UJrEHNHctgU&code_challenge=A1pA9NmazR8C43alGosAuzGxcrQydBWR7DsmUqOaiZs&code_challenge_method=S256"
+              }
+            }
+          },
+          {
+            "id": "cc6533d7a4bf2ba0",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "8c413ed97ea63be0",
+        "type": "tabs",
+        "dimension": 39.80769230769231,
+        "children": [
+          {
+            "id": "74ab548851923c50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "#generic",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "372ebf6b766c0b92",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a3042afa098de99a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1f61336fef6e93b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "e364ce91a9cd8096",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bd75577b9689489d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be63f63c4f09ed67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5bc222e612a298b",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 542.5
+  },
+  "right": {
+    "id": "aea716f090603573",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "2a029b7471cc554d",
+  "lastOpenFiles": [
+    "repository",
+    "000 Index/000 Index.md",
+    "200 Data Structures/201 Arrays.md",
+    "Media/PNG/Pasted image 20230525130359.png",
+    "Media/PNG/Pasted image 20230525125447.png",
+    "200 Data Structures/200 Data Structures.md",
+    "Excalidraw/Drawing 2023-05-27 18.06.53.excalidraw.md",
+    "900 Game Development/901 Obstacle Course/901 Obstacle Course.md",
+    "Excalidraw",
+    "000 Index/Untitled.canvas",
+    "900 Game Development/901.md",
+    "900 Game Development/901 Obstacle Course",
+    "900 Game Development/900 Game Development.canvas",
+    "900 Game Development/901 Unity.md",
+    "900 Game Development/901 Obstacle Course",
+    "Media/PNG/Pasted image 20230525125555.png",
+    "Untitled.md",
+    "Media/PNG/Pasted image 20230525125518.png",
+    "Media/PNG/Pasted image 20230525130301.png",
+    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125 Generic Collections.md",
+    "Untitled.canvas",
+    "Untitled Diagram.svg",
+    "Resources/Pasted image 20230524102715.png",
+    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
+    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125.1 List.md",
+    "Media/PNG/Pasted image 20230523085801.png",
+    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method.md",
+    "Media/PNG/Pasted image 20230520230525.png",
+    "Media/PNG/Pasted image 20230523085542.png",
+    "300 Design Patterns/301 Creational Patterns/301 Creational Patterns.md",
+    "300 Design Patterns/302 Structural Patterns/302 Structural Patterns.md",
+    "300 Design Patterns/303 Behavioral Patterns/303 Behavorial Patterns.md",
+    "300 Design Patterns/300 Design Patterns.md",
+    "300 Design Patterns/303 Behavioral Patterns",
+    "200 Data Structures.md",
+    "300 Design Patterns/302 Structural Patterns",
+    "300 Design Patterns/301 Creational Patterns",
+    "300 Design Patterns",
+    "100 CSharp Fundamentals/131 Events/131.1 EventHandler.md",
+    "100 CSharp Fundamentals/131 Events/131 Event.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type/103.6 Struct.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.7 Interfaces.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.6 Delegate.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.1 Arrays.md",
+    "100 CSharp Fundamentals/130 Lambda Expression.md",
+    "999 Game Development/999 Game.md",
+    "Resources/Unity",
+    "900 Game Development",
+    "100 CSharp Fundamentals/131 Events"
+  ]
+}
