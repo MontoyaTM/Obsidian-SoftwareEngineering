@@ -1,4 +1,5 @@
 
+![[Graph View Animation.gif]]
 
 ## 000 Index
 This index serves as a reference to a list of principles and practices for Software Engineering. The knowledge curated within this index was acquired from various resources throughout my learning experience.

@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "000 Index/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "000 Index/README.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "000 Index/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "000 Index/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,12 +233,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6cab1a3dc19ad5b7",
+  "active": "a3042afa098de99a",
   "lastOpenFiles": [
-    "Media/Graph View Animation.mp4",
-    "README.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.7 Interfaces.md",
+    "Media/PNG/Graph View Animation.gif",
     "000 Index/000 Index.md",
+    "000 Index/README.md",
+    "Media/Graph View Animation.mp4",
+    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.7 Interfaces.md",
     "Resources/Resources.md",
     "200 Data Structures/201 Big-O Notation.md",
     "200 Data Structures/200 Data Structures.md",
