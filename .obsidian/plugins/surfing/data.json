@@ -54,6 +54,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "a7e0c025c0f9d9ac",
+      "parent": 0,
+      "droppable": true,
+      "text": "ChatGPT",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "7a6ea74e0acb2254",
+      "parent": 0,
+      "droppable": true,
+      "text": "ChatGPT",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

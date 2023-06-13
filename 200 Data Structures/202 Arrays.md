@@ -4,16 +4,7 @@ Links:
 
 ---
 > [!note] 
->  # Obstacle Course
-
-
-
-
-
-
-
-
-
+>  # Arrays
 
 
 
@@ -30,6 +21,10 @@ Links:
 ```
 
 --- 
+
+> [!faq] 
+>  # Use Case:
+
 
 
 

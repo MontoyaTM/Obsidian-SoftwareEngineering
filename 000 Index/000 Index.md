@@ -1,4 +1,4 @@
-This index serves as a referance to a list of principles and practices for Software Engineeing. The knowledge curated within this index was acquired from various[resources](obsidian://open?vault=Software%20Engineering&file=Resources%2FResources) throughout my learning experience.
+This index serves as a reference to a list of principles and practices for Software Engineering. The knowledge curated within this index was acquired from various [resources](obsidian://open?vault=Software%20Engineering&file=Resources%2FResources) throughout my learning experience.
 
 ⋖T⋗
 

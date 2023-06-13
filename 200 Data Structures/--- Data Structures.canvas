@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"5ebbca35b7ef1912","x":-111,"y":-302,"width":250,"height":60,"color":"6","type":"text","text":"Data Structures — Resources"},
+		{"id":"f18979fc721ce5d5","x":-540,"y":-160,"width":400,"height":400,"type":"link","url":"https://visualgo.net/en"},
+		{"id":"eefcf27e9999c8a2","x":-60,"y":-160,"width":640,"height":360,"type":"link","url":"https://youtu.be/RBSGKlAvoiM"},
+		{"id":"43884f44bd1281a5","x":-60,"y":240,"width":640,"height":360,"type":"link","url":"https://youtu.be/n7nLxRaZfac"}
+	],
+	"edges":[]
+}

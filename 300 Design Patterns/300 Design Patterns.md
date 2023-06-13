@@ -1,6 +1,6 @@
 Status: 
 Tag: #DesignPatterns
-Links: 
+Links: [[100 CSharp Fundamentals]]
 
 ---
 > [!note] 
