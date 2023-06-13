@@ -58,7 +58,7 @@ This index serves as a reference to a list of principles and practices for Softw
 - 102.5 —  Object
 
 119 —  Constructors  
-- 119.1 —  Defaul Constructor  
+- 119.1 —  Default Constructor  
 - 119.2 —  Parameterized Constructor  
 - 119.3 —  Copy Constructor  
 - 119.4 —  Private Constructor  

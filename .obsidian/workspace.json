@@ -49,9 +49,11 @@
             "id": "6cab1a3dc19ad5b7",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "Media/Graph View Animation.mp4"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Graph View Animation.mp4"
+                "file": "README.md"
               }
             }
           },
@@ -173,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Graph View Animation.mp4",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Graph View Animation.mp4",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,9 +233,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3042afa098de99a",
+  "active": "6cab1a3dc19ad5b7",
   "lastOpenFiles": [
     "Media/Graph View Animation.mp4",
+    "README.md",
     "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.7 Interfaces.md",
     "000 Index/000 Index.md",
     "Resources/Resources.md",
@@ -280,8 +283,6 @@
     "300 Design Patterns/302 Structural Patterns",
     "300 Design Patterns/301 Creational Patterns",
     "300 Design Patterns",
-    "100 CSharp Fundamentals/131 Events/131.1 EventHandler.md",
-    "Resources/Unity",
-    "900 Game Development"
+    "Resources/Unity"
   ]
 }
