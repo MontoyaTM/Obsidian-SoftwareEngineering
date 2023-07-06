@@ -1,6 +1,6 @@
 Status: 
 Tag: #Method 
-Links: [[102.4 Class]]
+Links: [[102.5 Class]]
 
 ---
 > [!note] 

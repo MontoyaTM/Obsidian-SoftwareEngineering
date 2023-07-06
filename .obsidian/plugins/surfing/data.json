@@ -76,6 +76,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "be504e6613418597",
+      "parent": 0,
+      "droppable": true,
+      "text": "OpenAI",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "e1890d45f868c41a",
+      "parent": 0,
+      "droppable": true,
+      "text": "ChatGPT",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }

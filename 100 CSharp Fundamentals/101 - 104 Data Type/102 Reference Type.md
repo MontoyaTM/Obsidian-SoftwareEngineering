@@ -40,4 +40,4 @@ A class is a user-defined <font style="color:#b562f9">blueprint</font> or protot
 A <font style="color:#b562f9">Delegate</font> is a data structure that refers to a <font style="color:#b562f9">static method</font> or to a <font style="color:#b562f9">class instance</font> and an instance method of that class. It provides a way which tells which method is to be called when an event is triggered.
 
 ---
-References: [[102.1 Arrays]], [[102.2 String]], [[102.3 String Builder]], [[102.4 Class]], [[102.6 Delegate]] 
+References: [[102.1 Array]], [[102.2 String]], [[102.3 String Builder]], [[102.5 Class]], [[102.6 Delegate]] 

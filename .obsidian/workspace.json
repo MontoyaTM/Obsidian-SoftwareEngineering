@@ -22,43 +22,19 @@
             }
           },
           {
-            "id": "4d27577b20113b3a",
+            "id": "6efbd6440054e52f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures/201 Big-O Notation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48d86c29bcede2ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cab1a3dc19ad5b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "200 Data Structures/203 Array/203.2 Two Sum Array.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +46,7 @@
       {
         "id": "584748f400d30d31",
         "type": "tabs",
-        "dimension": 61.346153846153854,
+        "dimension": 57.78846153846153,
         "children": [
           {
             "id": "2a029b7471cc554d",
@@ -81,16 +57,6 @@
             }
           },
           {
-            "id": "7a6ea74e0acb2254",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chat.openai.com/c/e27eee98-0514-4c7f-9f98-25aa76bb56ab"
-              }
-            }
-          },
-          {
             "id": "ee53873b341ec26f",
             "type": "leaf",
             "state": {
@@ -98,6 +64,18 @@
               "state": {
                 "url": "https://auth0.openai.com/authorize?client_id=TdJIcbe16WoTHtN95nyywh5E4yOo6ItG&scope=openid%20email%20profile%20model.request%20model.read%20organization.read%20organization.write&response_type=code&redirect_uri=https%3A%2F%2Fchat.openai.com%2Fapi%2Fauth%2Fcallback%2Fauth0&audience=https%3A%2F%2Fapi.openai.com%2Fv1&prompt=login&state=uNX5zFUC966boc4qcqayEqv9Fah4Aj09UJrEHNHctgU&code_challenge=A1pA9NmazR8C43alGosAuzGxcrQydBWR7DsmUqOaiZs&code_challenge_method=S256"
               }
+            }
+          },
+          {
+            "id": "e1890d45f868c41a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://chat.openai.com/"
+              },
+              "pinned": true
             }
           },
           {
@@ -113,7 +91,7 @@
       {
         "id": "8c413ed97ea63be0",
         "type": "tabs",
-        "dimension": 38.65384615384615,
+        "dimension": 42.21153846153846,
         "children": [
           {
             "id": "74ab548851923c50",
@@ -121,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#generic",
+                "query": "param",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "200 Data Structures/203 Array/203.2 Two Sum Array.md"
               }
             }
           },
@@ -175,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "200 Data Structures/203 Array/203.2 Two Sum Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "200 Data Structures/203 Array/203.2 Two Sum Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 587.5
+    "width": 704.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -233,57 +211,58 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3042afa098de99a",
+  "active": "6efbd6440054e52f",
   "lastOpenFiles": [
-    "Media/PNG/Graph View Animation.gif",
-    "000 Index/000 Index.md",
-    "README.md",
-    "Media/Graph View Animation.mp4",
-    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.7 Interfaces.md",
-    "Resources/Resources.md",
-    "200 Data Structures/201 Big-O Notation.md",
+    "Excalidraw/Drawing 2023-07-06 11.18.54.excalidraw.md",
+    "200 Data Structures/203 Array/203.2 Two Sum Array.md",
+    "200 Data Structures/203 Array/Untitled.canvas",
+    "Media/PNG/Pasted image 20230706111341.png",
+    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
+    "Media/PNG/Pasted image 20230706111140.png",
     "200 Data Structures/200 Data Structures.md",
+    "Media/PNG/Pasted image 20230706102716.png",
+    "Pasted image 20230706102506.png",
+    "200 Data Structures/203 Array/203 Array Implementation.md",
+    "000 Index/000 Index.md",
+    "200 Data Structures/203 Array/Untitled Diagram.svg",
+    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.2 Method Overriding.md",
+    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.3 Method Hiding.md",
+    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.1.2 Params.md",
+    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122 Polymorphism.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.5 Static Constructor.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.4 Private Constructor.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.3 Copy Constructor.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.2 Parameterized Constructor.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.1 Default Constructor.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119 Constructors.md",
+    "100 CSharp Fundamentals/113 - 117Loops/113 Loops/116 Do-While Loop.md",
+    "100 CSharp Fundamentals/113 - 117Loops/113 Loops/115 While Loop.md",
+    "100 CSharp Fundamentals/113 - 117Loops/113 Loops/114 For Loop.md",
+    "100 CSharp Fundamentals/109 - 112 Conditional Statements/109 Conditional Statement/112 Switch Statement.md",
+    "100 CSharp Fundamentals/109 - 112 Conditional Statements/109 Conditional Statement/111 If-Else Statement.md",
+    "100 CSharp Fundamentals/109 - 112 Conditional Statements/109 Conditional Statement/110 If Statement.md",
+    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.1 Method Overloading.md",
+    "100 CSharp Fundamentals/130 Lambda Expression.md",
+    "200 Data Structures/203 Array",
+    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.5 Class.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/104 Data Types in Memory.md",
+    "Media/PNG/Pasted image 20230619160530.png",
+    "Resources/YouTube",
     "200 Data Structures/--- Data Structures.canvas",
-    "200 Data Structures/202 Arrays.md",
-    "300 Design Patterns/300 Design Patterns.md",
+    "200 Data Structures/201 Big-O Notation",
+    "Media/PNG/Graph View Animation.gif",
+    "Media/Graph View Animation.mp4",
     "Media/PNG/Pasted image 20230607210015.png",
     "Media/PNG/Pasted image 20230607204841.png",
     "900 Game Development/900 Game Development.canvas",
-    "900 Game Development/901 Obstacle Course/901 Obstacle Course.md",
-    "900 Game Development/901.md",
-    "200 Data Structures.md",
     "Pasted image 20230607145516.png",
-    "200 Data Structures/201 Arrays.md",
-    "Resources/Unity/Dapper Dino.md",
-    "Resources/Unity/Code Monkey.md",
-    "Resources/Unity/Indie Tales.md",
-    "Media/PNG/Pasted image 20230524102715.png",
     "repository",
-    "Media/PNG/Pasted image 20230525130359.png",
-    "Media/PNG/Pasted image 20230525125447.png",
-    "Excalidraw/Drawing 2023-05-27 18.06.53.excalidraw.md",
     "Excalidraw",
     "000 Index/Untitled.canvas",
     "900 Game Development/901 Obstacle Course",
-    "900 Game Development/901 Unity.md",
     "900 Game Development/901 Obstacle Course",
-    "Media/PNG/Pasted image 20230525125555.png",
-    "Untitled.md",
-    "Media/PNG/Pasted image 20230525125518.png",
-    "Media/PNG/Pasted image 20230525130301.png",
-    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125 Generic Collections.md",
     "Untitled.canvas",
-    "Untitled Diagram.svg",
-    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
-    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125.1 List.md",
-    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method.md",
-    "300 Design Patterns/301 Creational Patterns/301 Creational Patterns.md",
-    "300 Design Patterns/302 Structural Patterns/302 Structural Patterns.md",
-    "300 Design Patterns/303 Behavioral Patterns/303 Behavorial Patterns.md",
     "300 Design Patterns/303 Behavioral Patterns",
-    "300 Design Patterns/302 Structural Patterns",
-    "300 Design Patterns/301 Creational Patterns",
-    "300 Design Patterns",
-    "Resources/Unity"
+    "300 Design Patterns/302 Structural Patterns"
   ]
 }

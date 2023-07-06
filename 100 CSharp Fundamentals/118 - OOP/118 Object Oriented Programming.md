@@ -1,6 +1,6 @@
 Status: 
 Tag: #ObjectOrientedProgramming #OOP
-Links: [[100 CSharp Fundamentals]] [[102.4 Class]] [[102.5 Objects]]
+Links: [[100 CSharp Fundamentals]] [[102.5 Class]] [[102.5.1 Class Object]]
 
 ---
 > [!note] 
@@ -11,12 +11,12 @@ Object-oriented programming (OOP) is a programming <font style="color:#b562f9">p
 In C#, object-oriented programming is <font style="color:#b562f9">implemented</font> through <font style="color:#b562f9">classes</font>, which are templates for creating <font style="color:#b562f9">objects</font>. An object is an instance of a class that has its own state (data) and behavior (methods).
 
 > [!important] 
-> #### [[102.4 Class|Classes ]]
+> #### [[102.5 Class|Classes ]]
 
 A class is a <font style="color:#b562f9">blueprint</font> that defines the structure and behavior of <font style="color:#b562f9">objects</font>. It specifies the data members (attributes/fields) and member functions (methods) that objects of that class can have.
 
 > [!important] 
-> #### [[102.5 Objects | Objects]] 
+> #### [[102.5.1 Class Object| Objects]] 
 
 An object is an instance of a class, created using the <font style="color:#b562f9">new</font> keyword. Each object has its own set of data and can perform actions by invoking its methods.
 
