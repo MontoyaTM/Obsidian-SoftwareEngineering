@@ -45,50 +45,6 @@
   },
   "treeData": [
     {
-      "id": "ee53873b341ec26f",
-      "parent": 0,
-      "droppable": true,
-      "text": "",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "a7e0c025c0f9d9ac",
-      "parent": 0,
-      "droppable": true,
-      "text": "ChatGPT",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "7a6ea74e0acb2254",
-      "parent": 0,
-      "droppable": true,
-      "text": "ChatGPT",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "be504e6613418597",
-      "parent": 0,
-      "droppable": true,
-      "text": "OpenAI",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
       "id": "e1890d45f868c41a",
       "parent": 0,
       "droppable": true,
