@@ -15,31 +15,19 @@
               "type": "markdown",
               "state": {
                 "file": "000 Index/000 Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
             }
           },
           {
-            "id": "5ae4b558b0292d1a",
+            "id": "d79e9ab173370a0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures/204 HashTable/204 Hash Table Implementation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "269aa828b9c7bdf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 Data Structures/203 Array/203 Array Implementation.md",
+                "file": "200 Data Structures/206 Stack/206 Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +46,7 @@
       {
         "id": "584748f400d30d31",
         "type": "tabs",
-        "dimension": 57.78846153846153,
+        "dimension": 60.38461538461538,
         "children": [
           {
             "id": "22186ac0ceb32bf2",
@@ -88,13 +76,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8c413ed97ea63be0",
         "type": "tabs",
-        "dimension": 42.21153846153846,
+        "dimension": 39.61538461538461,
         "children": [
           {
             "id": "74ab548851923c50",
@@ -102,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "param",
+                "query": "tryparse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +107,7 @@
             }
           },
           {
-            "id": "250c2a7b859ddc41",
+            "id": "b0b1682c1541e485",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -134,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "200 Data Structures/206 Stack/206 Stack.md"
+              }
             }
           },
           {
@@ -154,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200 Data Structures/206 Stack/206 Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200 Data Structures/206 Stack/206 Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 590.5
+    "width": 422.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -210,58 +201,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1890d45f868c41a",
+  "active": "d79e9ab173370a0f",
   "lastOpenFiles": [
-    "200 Data Structures/204 HashTable/204 Hash Table Implementation.md",
-    "200 Data Structures/203 Array/203 Array Implementation.md",
-    "200 Data Structures/200 Data Structures.md",
-    "200 Data Structures/203 Array/203.2 Two Sum.md",
-    "200 Data Structures/203 Array/203.3 Move Zeros.md",
-    "200 Data Structures/203 Array/203.4 Rotate Array.md",
-    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
     "000 Index/000 Index.md",
-    "200 Data Structures/204 HashTable",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Pop().2.svg",
+    "200 Data Structures/206 Stack/206 Stack.md",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Peek().1.svg",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Pop().1.svg",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Push().3.svg",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Node().1.svg",
+    "200 Data Structures/206 Stack/Diagrams",
+    "200 Data Structures/206 Stack/Untitled.md",
+    "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Push().2.svg",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Stack().1.svg",
+    "200 Data Structures/205 HashTable/205 Hash Table Implementation.md",
+    "200 Data Structures/206 Stack/Diagrams/Stack — Push().1.svg",
+    "200 Data Structures/204 LinkedList/Diagrams/Singly Linked List/Singly  Linked List — Node().svg",
+    "200 Data Structures/204 LinkedList/204.2 Doubly Linked List.md",
+    "200 Data Structures/206 Stack",
+    "200 Data Structures/203 Array/203 Array Implementation.md",
+    "200 Data Structures/203 Array/Diagrams/Array — Implementation.1.svg",
+    "200 Data Structures/203 Array/203.4 Rotate Array.md",
+    "200 Data Structures/203 Array/203.3 Move Zeros.md",
+    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
+    "200 Data Structures/203 Array/203.2 Two Sum.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.1 Default Constructor.md",
+    "200 Data Structures/201 Big-O Notation/201.4 O(n!) — Oh No!.md",
+    "200 Data Structures/203 Array/Diagrams",
+    "100 CSharp Fundamentals/105 Parse Methods.md",
+    "100 CSharp Fundamentals/107 User Input.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type/103.7 Nullable.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type.md",
+    "200 Data Structures/205 HashTable/Diagrams",
+    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125.1 List.md",
     "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.2 HashTable.md",
-    "Media/PNG/Pasted image 20230709174101.png",
-    "Media/PNG/Pasted image 20230709174050.png",
-    "Media/PNG/Pasted image 20230709173031.png",
-    "Pasted image 20230709162030.png",
-    "Media/PNG/Pasted image 20230707094910.png",
-    "Media/PNG/Pasted image 20230707095002.png",
-    "Media/PNG/Pasted image 20230709105718.png",
-    "Media/PNG/Pasted image 20230709105752.png",
-    "Media/PNG/Pasted image 20230709105904.png",
-    "Pasted image 20230709105830.png",
-    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.1 Array.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.2 String.md",
-    "200 Data Structures/203 Array/Untitled Diagram.svg.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/102 Reference Type/102.5.1 Class Object.md",
-    "Excalidraw/Drawing 2023-07-06 11.42.28.excalidraw.md",
-    "Excalidraw/Drawing 2023-07-06 11.33.58.excalidraw.md",
-    "Excalidraw/Drawing 2023-07-06 11.18.54.excalidraw.md",
+    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.1 ArrayList.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/101 Data Type.md",
+    "100 CSharp Fundamentals/100 CSharp Fundamentals.md",
+    "Template/--- Template.md",
+    "200 Data Structures/204 LinkedList/Diagrams/Doubly Linked List",
+    "200 Data Structures/204 LinkedList/Diagrams/Drawing 2023-07-16 11.02.37.excalidraw.md",
+    "200 Data Structures/204 LinkedList/Diagrams/Singly Linked List",
+    "200 Data Structures/204 LinkedList/Diagrams",
+    "200 Data Structures/200 Data Structures.md",
+    "200 Data Structures/204 LinkedList",
+    "200 Data Structures/205 HashTable",
     "Media/Graph View Animation.mp4",
     "200 Data Structures/203 Array/Untitled.canvas",
-    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.2 Method Overriding.md",
-    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.3 Method Hiding.md",
-    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122.1.2 Params.md",
-    "100 CSharp Fundamentals/118 - OOP/122 Polymorphism/122 Polymorphism.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.5 Static Constructor.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.4 Private Constructor.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.3 Copy Constructor.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.2 Parameterized Constructor.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.1 Default Constructor.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119 Constructors.md",
-    "200 Data Structures/203 Array",
-    "Resources/YouTube",
     "200 Data Structures/--- Data Structures.canvas",
-    "200 Data Structures/201 Big-O Notation",
     "900 Game Development/900 Game Development.canvas",
-    "repository",
-    "Excalidraw",
     "000 Index/Untitled.canvas",
-    "900 Game Development/901 Obstacle Course",
-    "900 Game Development/901 Obstacle Course",
-    "Untitled.canvas",
-    "300 Design Patterns/303 Behavioral Patterns"
+    "Untitled.canvas"
   ]
 }

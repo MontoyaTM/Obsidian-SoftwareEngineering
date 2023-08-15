@@ -11,10 +11,7 @@ To store elements of any type in an <font style="color:#b562f9">Array</font>, yo
 > [!important] 
 > In C#, arrays are immutable after creation. This means that you would need to create a separate array to allocate the space needed and then duplicate its content.
 
-#### Insert Data (End):
-
-<font style="color:#b562f9">Push() </font>is a method that <font style="color:#81fd83">inserts</font> an Object item at the <font style="color:#e493fb">end</font> of the Array. 
-- It checks to see if there is room in the Array to insert the item otherwise it create a temporary Array to store the data to increase the size.
+![[Array — Implementation.1.svg | 500]]
 
 ``` run-csharp
 Class Array 
@@ -27,15 +24,14 @@ Class Array
 		this.length = 0;
 		this.data = new Object[] {};
 	}
-
-	static void Main(string[] args)
-	{
-		Object myArray = new Array();
-		myArray.Push("Hi");
-	    myArray.Push(1202020);
-	}
 }
 ```
+
+#### Insert Data (End):
+
+<font style="color:#b562f9">Push() </font>is a method that <font style="color:#81fd83">inserts</font> an Object item at the <font style="color:#e493fb">end</font> of the Array. 
+- It checks to see if there is room in the Array to insert the item otherwise it create a temporary Array to store the data to increase the size.
+
 
 ``` run-csharp
 public Object[] Push(Object item)
@@ -55,6 +51,19 @@ public Object[] Push(Object item)
         return data;
 }
 ```
+
+
+``` run-csharp
+public static Main(string[] args)
+{
+	Array myArray = new Array();
+	myArray.Push(1);
+}
+```
+
+
+
+
 
 ---
 

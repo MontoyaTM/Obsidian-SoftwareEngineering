@@ -1,3 +1,6 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Media",
+  "readableLineLength": false,
+  "tabSize": 3
 }

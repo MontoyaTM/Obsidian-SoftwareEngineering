@@ -54,6 +54,28 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "2057446a515d6fe7",
+      "parent": 0,
+      "droppable": true,
+      "text": "ChatGPT",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "0f5792b6e9d836a8",
+      "parent": 0,
+      "droppable": true,
+      "text": "QUANTITY Synonyms: 39 Synonyms & Antonyms for QUANTITY | Thesaurus.com",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
