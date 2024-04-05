@@ -53,11 +53,6 @@ public class Stack
 		this.bottom = null;
 		this.length = 0;
 	}
-
-	public bool isEmpty()
-	{
-		return this.length == 0;
-	}
 }
 ```
 
@@ -76,21 +71,20 @@ public static void Main(string[] args)
 ![[Stack — Push().1.svg | 600]]
 
 ``` run-csharp
-public void Push(int value)
+public void Push(int data)
 {
-	Node curr = new Node(value);
+	Node curr = new Node(data);
 
-	if(isEmpty)
+	if(this.top == null)
 	{
-		this.top = curr;
-		this.bottom = curr;
-		this.length++;
+		top = curr;
+		bottom = curr;
+		length++;
 		return;
 	}
 
-	Node beneath = this.top;
-	this.top = node;
-	this.top.next = beneath;
+	node.next = top;
+	top = node;
 	this.length++;
 }
 ```
@@ -116,13 +110,10 @@ public static void Main(string[] args)
 ``` run-csharp
 public void Peek()
 {
-	if(isEmpty)
-	{
-		throw new Exception("There is no data in the stack!")
-	} else 
-	{
-		Console.WriteLine(this.top.ToString());
-	}
+	if (this.top == null) throw
+		new ArgumentNullException("Stack is empty; initialize to use method.");
+
+	return this.top;
 }
 ```
 
@@ -149,18 +140,16 @@ public static void Main(string[] args)
 ![[Stack — Push().3.svg | 400]]
 
 ``` run-csharp
-public void Pop()
+public Node Pop()
 {
-	if(isEmpty)
-	{
-		Console.WriteLine("The stack is empty!")
-		return;
-	}
-	Node popped = this.top;
-	this.top = this.top.next;
-	this.length--;
+	if (this.top == null) throw
+		new ArgumentNullException("Stack is empty; initialize to use method.");
 
-	Console.WriteLine(popped.ToString());
+	Node pop = this.top;
+	top = top.next;
+	length--;
+	
+	return pop;
 }
 ```
 

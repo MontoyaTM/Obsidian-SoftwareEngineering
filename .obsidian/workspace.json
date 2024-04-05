@@ -4,37 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa716f11947cae2",
+        "id": "39167f65c39be1b0",
         "type": "tabs",
         "children": [
           {
-            "id": "e63f431806b3e710",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 Index/000 Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d79e9ab173370a0f",
+            "id": "23e42e981a5220d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures/206 Stack/206 Stack.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "436bf3cb97d0296f",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg"
+              }
+            }
+          },
+          {
+            "id": "b7c66ef4cdc8a150",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.geeksforgeeks.org/insertion-in-an-avl-tree/"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,7 +51,7 @@
       {
         "id": "584748f400d30d31",
         "type": "tabs",
-        "dimension": 60.38461538461538,
+        "dimension": 39.23076923076923,
         "children": [
           {
             "id": "22186ac0ceb32bf2",
@@ -57,19 +62,7 @@
             }
           },
           {
-            "id": "e1890d45f868c41a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://chat.openai.com/"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "cc6533d7a4bf2ba0",
+            "id": "98fa952debe60bbe",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -81,15 +74,25 @@
       {
         "id": "8c413ed97ea63be0",
         "type": "tabs",
-        "dimension": 39.61538461538461,
+        "dimension": 60.76923076923076,
         "children": [
+          {
+            "id": "45cbb5dbb011320a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
           {
             "id": "74ab548851923c50",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tryparse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,22 +110,12 @@
             }
           },
           {
-            "id": "b0b1682c1541e485",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "f1f61336fef6e93b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Data Structures/206 Stack/206 Stack.md"
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md"
               }
             }
           },
@@ -143,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Data Structures/206 Stack/206 Stack.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures/206 Stack/206 Stack.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,26 +158,34 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "f81a4c38ca9e39ab",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 392.5
   },
   "right": {
     "id": "aea716f090603573",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "95cf2bfb9f102eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7650afb0b80c0b68",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 318.5,
     "collapsed": true
@@ -201,56 +202,59 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d79e9ab173370a0f",
+  "active": "45cbb5dbb011320a",
   "lastOpenFiles": [
-    "000 Index/000 Index.md",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Pop().2.svg",
-    "200 Data Structures/206 Stack/206 Stack.md",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Peek().1.svg",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Pop().1.svg",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Push().3.svg",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Node().1.svg",
-    "200 Data Structures/206 Stack/Diagrams",
-    "200 Data Structures/206 Stack/Untitled.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Rotations.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — Udemy.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree Rotations.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Balance Factor.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree — Recursion.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree.2.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Node.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Node.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Recursion.Remove.NoRightNode.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.2 In-Order Traversal — Stack.md",
     "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Push().2.svg",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Stack().1.svg",
-    "200 Data Structures/205 HashTable/205 Hash Table Implementation.md",
-    "200 Data Structures/206 Stack/Diagrams/Stack — Push().1.svg",
-    "200 Data Structures/204 LinkedList/Diagrams/Singly Linked List/Singly  Linked List — Node().svg",
-    "200 Data Structures/204 LinkedList/204.2 Doubly Linked List.md",
-    "200 Data Structures/206 Stack",
-    "200 Data Structures/203 Array/203 Array Implementation.md",
-    "200 Data Structures/203 Array/Diagrams/Array — Implementation.1.svg",
-    "200 Data Structures/203 Array/203.4 Rotate Array.md",
-    "200 Data Structures/203 Array/203.3 Move Zeros.md",
-    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
-    "200 Data Structures/203 Array/203.2 Two Sum.md",
-    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.1 Default Constructor.md",
-    "200 Data Structures/201 Big-O Notation/201.4 O(n!) — Oh No!.md",
-    "200 Data Structures/203 Array/Diagrams",
-    "100 CSharp Fundamentals/105 Parse Methods.md",
-    "100 CSharp Fundamentals/107 User Input.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type/103.7 Nullable.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type.md",
-    "200 Data Structures/205 HashTable/Diagrams",
-    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125.1 List.md",
-    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.2 HashTable.md",
-    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.1 ArrayList.md",
-    "100 CSharp Fundamentals/101 - 104 Data Type/101 Data Type.md",
-    "100 CSharp Fundamentals/100 CSharp Fundamentals.md",
-    "Template/--- Template.md",
-    "200 Data Structures/204 LinkedList/Diagrams/Doubly Linked List",
-    "200 Data Structures/204 LinkedList/Diagrams/Drawing 2023-07-16 11.02.37.excalidraw.md",
-    "200 Data Structures/204 LinkedList/Diagrams/Singly Linked List",
-    "200 Data Structures/204 LinkedList/Diagrams",
+    "200 Data Structures/204 LinkedList/204.1.1 Linked List Cycle.md",
+    "200 Data Structures/206 Stack/206 Stack.md",
+    "200 Data Structures/209 Recursion/209.1 Factorial Recursion.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.3 Pre-Order Traversal — Stack.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.4 Post-Order Traversal — Stack.md",
+    "200 Data Structures/209 Recursion/209 Recursion.md",
+    "200 Data Structures/209 Recursion/Diagrams",
     "200 Data Structures/200 Data Structures.md",
-    "200 Data Structures/204 LinkedList",
-    "200 Data Structures/205 HashTable",
-    "Media/Graph View Animation.mp4",
+    "200 Data Structures/207 Queue/Queue.md",
+    "200 Data Structures/209 Recursion",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams",
+    "200 Data Structures/208 Trees/208.2 AVL Tree",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Morris Traversal.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.2 In-Order Traversal.md",
+    "200 Data Structures/203 Array/203.7 Binary Search.md",
+    "200 Data Structures/203 Array/203.5 Largest Subarray Sum.md",
+    "200 Data Structures/203 Array/203.6 Contains Duplicate.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree",
+    "200 Data Structures/208 Trees/208 Trees.md",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.3 Squaring Sorted Array.md",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.4 Triplet Sum to Zero.md",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.2 Non-Duplicate Number.md",
+    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window/202.1.1 Average Contiguous Subarray.md",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.1 Two Sum.md",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/Diagrams",
+    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers",
+    "200 Data Structures/208 String/Diagrams",
+    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window/Diagrams",
+    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window",
+    "900 Game Development/900 Game Development.canvas",
+    "500 DSharpPlus/NinOnline Village Bot.canvas",
+    "500 DSharpPlus/LMPF Report Ticket.canvas",
+    "500 DSharpPlus/Profile.canvas",
     "200 Data Structures/203 Array/Untitled.canvas",
     "200 Data Structures/--- Data Structures.canvas",
-    "900 Game Development/900 Game Development.canvas",
     "000 Index/Untitled.canvas",
     "Untitled.canvas"
   ]

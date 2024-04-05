@@ -6,12 +6,12 @@ Links: [[200 Data Structures]] , [[102.1 Array]]
 > [!note] 
 >  # Array Implementation:
 
-To store elements of any type in an <font style="color:#b562f9">Array</font>, you can specify <font style="color:#81fd83">object</font> as its type. In the unified type system of C#, all types, predefined and user-defined, reference types and value types, inherit directly or indirectly from <font style="color:#0b9301">Object</font>.
-
+To store elements of any type in an Array, you can specify <span style="color:#81fd83">Object</span> as its type. In the  C#, all types, predefined and user-defined, reference types and value types, <span style="color:#ffff00">inherit</span> directly or indirectly from Object.
+****
 > [!important] 
-> In C#, arrays are immutable after creation. This means that you would need to create a separate array to allocate the space needed and then duplicate its content.
+> In C#, arrays are <span style="color:#ffff00">immutable</span> after creation. This means that you would need to create a separate array to allocate the space needed and then duplicate its content.
 
-![[Array — Implementation.1.svg | 500]]
+![[Array — Implementation.1.svg | 700]]
 
 ``` run-csharp
 Class Array 
@@ -27,16 +27,19 @@ Class Array
 }
 ```
 
+
+---
+
 #### Insert Data (End):
 
-<font style="color:#b562f9">Push() </font>is a method that <font style="color:#81fd83">inserts</font> an Object item at the <font style="color:#e493fb">end</font> of the Array. 
+<span style="color:#81fd83">Push()</span> is a method that inserts an Object item at the <font style="color:#e493fb">end</font> of the Array. 
 - It checks to see if there is room in the Array to insert the item otherwise it create a temporary Array to store the data to increase the size.
 
 
 ``` run-csharp
 public Object[] Push(Object item)
 {
-    // Checks if there is room in Array to insert item
+    //Checks if there is room in Array to insert item
     if(data.Length == length)
     {
         Object[] temp = new Object[length];        
@@ -62,9 +65,6 @@ public static Main(string[] args)
 ```
 
 
-
-
-
 ---
 
 #### Insert Params Data (End)  
@@ -80,15 +80,6 @@ Class Array
 	{
 		this.length = 0;
 		this.data = new Object[] {};
-	}
-	
-	static void Main(string[] args)
-	{
-		Object myArray = new Array();
-		myArray.Push("Hi");
-	    myArray.Push(1202020);
-	            
-	    myArray.ParamsPush("hi", 2, 3,2.2, 'c');
 	}
 }
 ```
@@ -113,6 +104,17 @@ public Object[] ParamsPush(params Object[] item)
 }
 ```
 
+``` run-csharp
+static void Main(string[] args)
+{
+	Object myArray = new Array();
+	myArray.Push("Hi");
+	 myArray.Push(1202020);
+				
+	 myArray.ParamsPush("hi", 2, 3,2.2, 'c');
+}
+```
+
 ---
 
 #### Access Index:
@@ -129,17 +131,6 @@ Class Array
 		this.length = 0;
 		this.data = new Object[] {};
 	}
-
-	static void Main(string[] args)
-	{
-		Object myArray = new Array();
-		myArray.Push("Hi");
-        myArray.Push(1202020);
-            
-        myArray.ParamsPush("hi", 2, 3,2.2, 'c');
-
-        Console.WriteLine(myArray.getIndex(6));
-    }
 }
 ```
 
@@ -156,6 +147,17 @@ public Object getIndex(int index)
     } 
     return null;
             
+}
+```
+
+``` run-csharp
+public static void Main(string[] args) 
+{ 
+	Object myArray = new Array(); 
+	myArray.Push("Hi"); 
+	myArray.Push(1202020); 
+	myArray.ParamsPush("hi", 2, 3,2.2, 'c'); 
+	Console.WriteLine(myArray.getIndex(6)); 
 }
 ```
 
@@ -178,19 +180,6 @@ Class Array
 		this.length = 0;
 		this.data = new Object[] {};
 	}
-
-	static void Main(string[] args)
-	{
-		Object myArray = new Array();
-		myArray.Push("Hi");
-        myArray.Push(1202020);
-            
-        myArray.ParamsPush("hi", 2, 3,2.2, 'c');
-
-        Console.WriteLine(myArray.getIndex(6));
-
-        myArray.Pop();
-    }
 }
 ```
 
@@ -205,6 +194,21 @@ public Object Pop()
 	length--;
 	return itemPopped;
 }
+```
+
+``` run-csharp
+static void Main(string[] args)
+{
+	Object myArray = new Array();
+	myArray.Push("Hi");
+	myArray.Push(1202020);
+			
+	myArray.ParamsPush("hi", 2, 3,2.2, 'c');
+
+	Console.WriteLine(myArray.getIndex(6));
+
+	myArray.Pop();
+ }
 ```
 
 ---
@@ -222,20 +226,6 @@ Class Array
 	{
 		this.length = 0;
 		this.data = new Object[] {};
-	}
-
-	static void Main(string[] args)
-	{
-		Object myArray = new Array();
-		myArray.Push("Hi");
-        myArray.Push(1202020);
-            
-        myArray.ParamsPush("hi", 2, 3,2.2, 'c');
-
-        Console.WriteLine(myArray.getIndex(6));
-
-        myArray.Pop();
-		myArray.DeleteData(4);
 	}
 }
 ```
@@ -263,6 +253,22 @@ public void ShiftItems(int index)
     //this.data[this.length - 1] = null;
     System.Array.Resize(ref data, data.Length - 1);
     length--;
+}
+```
+
+``` run-csharp
+static void Main(string[] args)
+{
+	Object myArray = new Array();
+	myArray.Push("Hi");
+	myArray.Push(1202020);
+		
+	myArray.ParamsPush("hi", 2, 3,2.2, 'c');
+	
+	Console.WriteLine(myArray.getIndex(6));
+	
+	myArray.Pop();
+	myArray.DeleteData(4);
 }
 ```
 

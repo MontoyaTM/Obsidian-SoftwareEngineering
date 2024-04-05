@@ -1,4 +1,4 @@
-Status: 
+wStatus: 
 Tag: #HashTableDS
 Links: [[200 Data Structures]]
 
@@ -50,15 +50,11 @@ The class <span style="color:#b562f9">HashTable</span> consists of an Array of N
 ``` run-csharp
 public class HashTable
 {
-	Node[] hashTable;
-	int length;
-	int quantity;
+	Node[] _buckets;
 
 	public HashTable(int size)
 	{
-		this.hashTable = new Node[size];
-		this.length = size;
-		this.quantity = 0;
+		_buckets = new Node[size];
 	}
 }
 ```
@@ -70,18 +66,18 @@ static void Main(string[] args)
 }
 ```
 
-![[HashTable — HashTable{}.svg | 300]]
+![[HashTable — HashTable{}.svg | 400]]
 
-## HashKey() 
+## Hash() 
 
-<span style="color:#b562f9">HashKey() </span>is a function that takes an input, <span style="color:#b562f9">key</span>, and returns a <span style="color:#81fd83">fixed-size integer value</span>. The value is passed through a while loop that retrieves the <span style="color:#81fd83">UTF-16 encoding</span> for the char at position "<span style="color:#b562f9">i</span>" of the string key. 
+<span style="color:#b562f9">Hash() </span>is a function that takes an input, <span style="color:#b562f9">key</span>, and returns a <span style="color:#81fd83">fixed-size integer value</span>. The value is passed through a while loop that retrieves the <span style="color:#81fd83">UTF-16 encoding</span> for the char at position "<span style="color:#b562f9">i</span>" of the string key. 
 
 The encoding received is used within an algorithm to return an integer value within the range of the HashTable. 
 
 ![[HashTable — HashKey().1.svg | 550]]
 
 ``` run-csharp
-public int HashKey(string key)
+public int Hash(string key)
 {
 	int hashedKey = 0;
 	
@@ -95,17 +91,24 @@ public int HashKey(string key)
 ```
 
 ![[HashTable — HashKey().2.svg | 400]]
-## Put()
+## Set()
 
-<span style="color:#b562f9">Put() </span>is a function that receives a string(<span style="color:#81fd83">key</span>) and an integer(<span style="color:#81fd83">value</span>) for insertion to the HashTable. The key parameter will be used to determine the <span style="color:#b562f9">index</span> within the HashTable using the <span style="color:#b562f9">HashKey() </span>function.
+<span style="color:#b562f9">Set() </span>is a function that receives a string(<span style="color:#81fd83">key</span>) and an integer(<span style="color:#81fd83">value</span>) for insertion to the HashTable. The key parameter will be used to determine the <span style="color:#b562f9">index</span> within the HashTable using the <span style="color:#b562f9">HashKey() </span>function.
 
 A while loop is incorporated to first determine whether the key already exists within the index of the HashTable. If it exist then the value will get replaced and the function will return.
 
 ``` run-csharp
-public void Put(string key, int value)
+public void Set(string key, int value)
 {
-	int index = HashKey(key);
-	Node curr = hashTable[index];
+	int index = Hash(key);
+	Node curr = _buckets[index];
+	Node node = new Node(key, value);
+	
+	if(curr == null)
+	{
+		_buckets[index] = node;
+		return;
+	}
 
 	While(curr != null)
 	{
@@ -117,11 +120,9 @@ public void Put(string key, int value)
 		curr = curr.next;
 	}
 
-	curr = hashTable[index];
-	Node node = new Node(key, value);
+	curr = _buckets[index];
 	node.next = curr;
-	hashtable[index] = node;
-	quantity++;
+	_buckets[index] = node;
 }
 ```
 
@@ -137,14 +138,50 @@ static void Main(string[] args)
 
 ![[HashTable — Put().2.svg | 600]]
 
+## Get
+
+Get() is a function that receives a string key to be hashed so that the index in the buckets array can be found; assuming it exists.
+
+``` run-csharp
+
+public int? Get(string key)
+{
+	int index = Hash(key);
+	Node curr = _buckets[index];
+
+	if(curr == null) throw
+		new ArgumentOutOfRangeException($"{key}: was not found!"); 
+
+	while(curr != null)
+	{
+		if(curr.key.Equals(key))
+		{
+			return curr.value;
+		}
+		curr = curr.next;
+	}
+
+	return curr.value;
+}
+
+
+```
+
+``` run-csharp
+static void Main(string[] args) 
+{ 
+	HashTable hashTable = new HashTable(10); 
+	hashTable.Get("Montoya");
+}
+```
+
+![[HashTable — Put().2.svg | 600]]
+
 ## Remove()
 
 <span style="color:#b562f9">Remove()</span> is a method that receives a string(<span style="color:#81fd83">key</span>) that will be hashed using the <span style="color:#b562f9">HashKey()</span> function to retrieve its <span style="color:#81fd83">index</span> in the HashTable.
 
 <span style="color:#b562f9">Remove()</span> contains a <span style="color:#b562f9">while</span> loop to find the <span style="color:#81fd83">Node—LinkedList</span>  at the index while also using a second Node to hold the position of the <span style="color:#81fd83">previous Node</span>. The loop will terminate whether the key is found in the Node(<span style="color:#81fd83">index</span>).
-
-> [!important] 
->  - Every key besides "Montoya" are in their correct location
 
 
 ![[HashTable — Remove().1.svg | 700]]
@@ -152,9 +189,13 @@ static void Main(string[] args)
 ``` run-csharp
 public void Remove(string key)
 {
-	int index = HashKey(key);
-	Node curr = this.hashTable[index];
+	int index = Hash(key);
+	Node curr = _buckets[index];
+	Node prev = null;
 
+	if(curr == null) throw
+		new ArgumentOutOfRangeException($"{key}: was not found!"); 
+		
 	while(curr != null)
 	{
 		if(curr.key.Equals(key))
@@ -165,19 +206,13 @@ public void Remove(string key)
 		curr = curr.next;
 	}
 
-	if(curr == null)
-	{
-		Console.WriteLine("The use of key: " + key + " did not yield anything." )
-	}
-
 	if(prev != null)
 	{
 		prev.next = curr.next;
 	} else 
 	{
-		this.hashTable[index] = curr.next;
+		_buckets[index] = curr.next;
 	}
-	this.quantity--;
 }
 ```
 
@@ -197,8 +232,6 @@ static void Main(string[] args)
 ```
 
 ![[HashTable — Remove().3.svg | 700]]
-
-
 
 ---
 References:

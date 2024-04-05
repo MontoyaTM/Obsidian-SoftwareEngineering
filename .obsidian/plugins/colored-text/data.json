@@ -16,7 +16,8 @@
     "#b562f9",
     "#e493fb",
     "#0b9301",
-    "#00d5ff"
+    "#c00000"
   ],
-  "colorCellCount": "5"
+  "colorCellCount": "5",
+  "hidePlugin": false
 }

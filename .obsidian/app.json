@@ -2,5 +2,10 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Media",
   "readableLineLength": false,
-  "tabSize": 3
+  "tabSize": 3,
+  "showInlineTitle": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "smartIndentList": true
 }

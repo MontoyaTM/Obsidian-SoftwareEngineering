@@ -6,6 +6,7 @@
       "url": "https://duckduckgo.com/?q="
     }
   ],
+  "hoverPopover": true,
   "ignoreList": [
     "notion",
     "craft"
@@ -24,6 +25,8 @@
   "useWebview": false,
   "useIconList": true,
   "darkMode": false,
+  "randomBackground": false,
+  "lastOpenedFiles": false,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -45,37 +48,16 @@
   },
   "treeData": [
     {
-      "id": "e1890d45f868c41a",
+      "id": "b7c66ef4cdc8a150",
       "parent": 0,
       "droppable": true,
-      "text": "ChatGPT",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "2057446a515d6fe7",
-      "parent": 0,
-      "droppable": true,
-      "text": "ChatGPT",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "0f5792b6e9d836a8",
-      "parent": 0,
-      "droppable": true,
-      "text": "QUANTITY Synonyms: 39 Synonyms & Antonyms for QUANTITY | Thesaurus.com",
+      "text": "Insertion in an AVL Tree - GeeksforGeeks",
       "data": {
         "fileType": "site",
         "fileSize": "",
         "icon": {}
       }
     }
-  ]
+  ],
+  "enableHtmlPreview": true
 }
