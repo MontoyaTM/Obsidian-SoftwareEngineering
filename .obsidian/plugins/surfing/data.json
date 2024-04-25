@@ -46,18 +46,6 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "b7c66ef4cdc8a150",
-      "parent": 0,
-      "droppable": true,
-      "text": "Insertion in an AVL Tree - GeeksforGeeks",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ],
+  "treeData": [],
   "enableHtmlPreview": true
 }

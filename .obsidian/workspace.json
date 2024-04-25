@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "39167f65c39be1b0",
+        "id": "06de5ffdb6766f9f",
         "type": "tabs",
         "children": [
           {
@@ -13,33 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Pre-Order Traversal.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "436bf3cb97d0296f",
+            "id": "a7ad6a2ee53a3ae9",
             "type": "leaf",
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg"
-              }
-            }
-          },
-          {
-            "id": "b7c66ef4cdc8a150",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.geeksforgeeks.org/insertion-in-an-avl-tree/"
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +68,7 @@
         "dimension": 60.76923076923076,
         "children": [
           {
-            "id": "45cbb5dbb011320a",
+            "id": "798e0ed773e7b788",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -115,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md"
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg"
               }
             }
           },
@@ -136,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
+                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 296.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -202,29 +193,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "45cbb5dbb011320a",
+  "active": "a7ad6a2ee53a3ae9",
   "lastOpenFiles": [
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — GFG.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Rotations.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — Udemy.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree Rotations.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Balance Factor.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Pre-Order Traversal.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Post-Order Traversal.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Post-Order Traversal.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 In-Order Traversal.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Post-Order Traversal — Stack.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/In-Order Traversal.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 In-Order Traversal — Stack.md",
     "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree.svg",
+    "200 Data Structures/208 Trees/208 Trees.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Pre-Order Traversal — Stack.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree — Recursion.md",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree.2.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Node.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Node.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Recursion.Remove.NoRightNode.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.2 In-Order Traversal — Stack.md",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — Udemy.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Remove.24.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Remove.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Insert.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Left Rotate.svg",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Insert.Recursion.1.svg",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg",
     "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
     "200 Data Structures/204 LinkedList/204.1.1 Linked List Cycle.md",
     "200 Data Structures/206 Stack/206 Stack.md",
     "200 Data Structures/209 Recursion/209.1 Factorial Recursion.md",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.3 Pre-Order Traversal — Stack.md",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.4 Post-Order Traversal — Stack.md",
     "200 Data Structures/209 Recursion/209 Recursion.md",
     "200 Data Structures/209 Recursion/Diagrams",
     "200 Data Structures/200 Data Structures.md",
@@ -238,12 +233,8 @@
     "200 Data Structures/203 Array/203.5 Largest Subarray Sum.md",
     "200 Data Structures/203 Array/203.6 Contains Duplicate.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree",
-    "200 Data Structures/208 Trees/208 Trees.md",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.3 Squaring Sorted Array.md",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.4 Triplet Sum to Zero.md",
-    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.2 Non-Duplicate Number.md",
-    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window/202.1.1 Average Contiguous Subarray.md",
-    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.1 Two Sum.md",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/Diagrams",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers",
     "200 Data Structures/208 String/Diagrams",
