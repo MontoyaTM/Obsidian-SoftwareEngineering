@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "06de5ffdb6766f9f",
+        "id": "1cc7907a7625d8d5",
         "type": "tabs",
         "children": [
           {
@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Pre-Order Traversal.md",
+                "file": "200 Data Structures/211 Graph/211.1 Graph.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a7ad6a2ee53a3ae9",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg"
+                "file": "200 Data Structures/211 Graph/211.1 Graph.md"
               }
             }
           },
@@ -127,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
+                "file": "200 Data Structures/211 Graph/211.1 Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
+                "file": "200 Data Structures/211 Graph/211.1 Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 335.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -193,31 +182,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a7ad6a2ee53a3ae9",
+  "active": "23e42e981a5220d1",
   "lastOpenFiles": [
-    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Pre-Order Traversal.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Pre-Order Traversal.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Post-Order Traversal.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/Post-Order Traversal.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 In-Order Traversal.md",
+    "200 Data Structures/210 Binary Heap/210.1 Binary Heap.md",
+    "200 Data Structures/211 Graph/211.1 Graph.md",
+    "200 Data Structures/211 Graph",
     "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree.md",
+    "200 Data Structures/210 Binary Heap/Diagrams/Maximum Binary Heap — HeapifyUp().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — HeapifyUp().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Maximum Binary Heap — HeapifyDown().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — HeapifyDown().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — Poll().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — Swap().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — Add().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — ExtraCapacity().svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap.svg",
+    "200 Data Structures/210 Binary Heap/Diagrams/Minimum Binary Heap — Index.svg",
+    "200 Data Structures/210 Binary Heap/Diagrams",
+    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree.md",
+    "200 Data Structures/203 Array/203 Array Implementation.md",
+    "200 Data Structures/204 LinkedList/204.1.1 Linked List Cycle.md",
+    "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
+    "200 Data Structures/203 Array/203.3 Move Zeros.md",
+    "200 Data Structures/203 Array/203.2 Two Sum.md",
+    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 In-Order Traversal.md",
+    "200 Data Structures/210 Binary Heap",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Pre-Order Traversal.md",
+    "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 Post-Order Traversal.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Post-Order Traversal — Stack.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/In-Order Traversal.svg",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 In-Order Traversal — Stack.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree.svg",
     "200 Data Structures/208 Trees/208 Trees.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Pre-Order Traversal — Stack.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree — Recursion.md",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree.md",
     "200 Data Structures/208 Trees/208.2 AVL Tree/208.2 AVL Tree — Udemy.md",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Remove.24.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Remove.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Insert.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Left Rotate.svg",
-    "200 Data Structures/208 Trees/208.1 Binary Search Tree/Diagrams/Binary Search Tree — Insert.Recursion.1.svg",
-    "200 Data Structures/208 Trees/208.2 AVL Tree/Diagrams/AVL Tree — Right Rotation.svg",
-    "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
-    "200 Data Structures/204 LinkedList/204.1.1 Linked List Cycle.md",
     "200 Data Structures/206 Stack/206 Stack.md",
     "200 Data Structures/209 Recursion/209.1 Factorial Recursion.md",
     "200 Data Structures/209 Recursion/209 Recursion.md",
@@ -229,17 +227,9 @@
     "200 Data Structures/208 Trees/208.2 AVL Tree",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/Morris Traversal.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree/208.2 In-Order Traversal.md",
-    "200 Data Structures/203 Array/203.7 Binary Search.md",
-    "200 Data Structures/203 Array/203.5 Largest Subarray Sum.md",
-    "200 Data Structures/203 Array/203.6 Contains Duplicate.md",
     "200 Data Structures/208 Trees/208.1 Binary Search Tree",
-    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.3 Squaring Sorted Array.md",
-    "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/202.2.4 Triplet Sum to Zero.md",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers/Diagrams",
     "200 Data Structures/202 Groking Patterns/202.2 Two Pointers",
-    "200 Data Structures/208 String/Diagrams",
-    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window/Diagrams",
-    "200 Data Structures/202 Groking Patterns/202.1 Sliding Window",
     "900 Game Development/900 Game Development.canvas",
     "500 DSharpPlus/NinOnline Village Bot.canvas",
     "500 DSharpPlus/LMPF Report Ticket.canvas",
