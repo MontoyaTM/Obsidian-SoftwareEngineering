@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Index/000 Index.md"
+                "file": "README.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Index/000 Index.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Index/000 Index.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,40 +157,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.5
+    "width": 373.5
   },
   "right": {
     "id": "aea716f090603573",
     "type": "split",
-    "children": [
-      {
-        "id": "939c4886559fb48b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b9c7861617790e20",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "715102d35d21e922",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,36 +179,37 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "1da84cc56b9ff74e",
+  "active": "ba628f220a50e8d6",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
+    "README.md",
+    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.1 In-Order Traversal.md",
+    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.3 Pre-Order Traversal.md",
+    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.2 Post-Order Traversal.md",
+    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.3 Pre-Order Traversal — Stack.md",
+    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.2 Post-Order Traversal — Stack.md",
+    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.1 In-Order Traversal — Stack.md",
+    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree — Recursion.md",
+    "200 Data Structures & Algorithms/202 String/202.1 Pangram.md",
+    "200 Data Structures & Algorithms/204 LinkedList/204.1 Singly Linked List.md",
     "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
     "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
     "Media/Pasted image 20240519181054.png",
     "200 Data Structures & Algorithms/209 Recursion/209.1 Factorial Recursion.md",
     "Media/Pasted image 20240519180630.png",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220 Grokking Patterns.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220 Grokking Patterns.md",
     "000 Index/000 Index.md",
     "200 Data Structures & Algorithms/200 Data Structures & Algorithms.md",
-    "200 Data Structures & Algorithms/211 Graph/211.1 Graph.md",
+    "200 Data Structures & Algorithms/211 Graph/211 Graph.md",
     "200 Data Structures & Algorithms/214 Dynamic Programming",
     "HashTable — Rewmove().1.svg.md",
-    "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
     "200 Data Structures & Algorithms/202 String/202.6 Number of Good Pairs.md",
-    "200 Data Structures & Algorithms/202 String/202.5 Shortest Word Distance.md",
-    "200 Data Structures & Algorithms/202 String/202.4 Anagram.md",
-    "200 Data Structures & Algorithms/202 String/202.3 Palindrome.md",
-    "200 Data Structures & Algorithms/202 String/202.2 Reverse Vowels.md",
-    "200 Data Structures & Algorithms/202 String/202.1 Pangram.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 Post-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 In-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 AVL Tree.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1 In-Order Traversal — Stack.md",
     "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search — breadthFirstSearch().svg",
     "200 Data Structures & Algorithms/212 Sorting/Diagrams/Depth First Search — depthFirstSearch().svg",
     "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search.svg",
