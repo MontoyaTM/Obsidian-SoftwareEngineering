@@ -22,14 +22,12 @@
             }
           },
           {
-            "id": "ba628f220a50e8d6",
+            "id": "7ec3eabc5d93fa28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md"
               }
             }
           }
@@ -44,11 +42,12 @@
     "type": "split",
     "children": [
       {
-        "id": "75278a36ed52b645",
+        "id": "584748f400d30d31",
         "type": "tabs",
+        "dimension": 60.38461538461538,
         "children": [
           {
-            "id": "1da84cc56b9ff74e",
+            "id": "22186ac0ceb32bf2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -56,7 +55,19 @@
             }
           },
           {
-            "id": "e8a15034beb43e02",
+            "id": "e1890d45f868c41a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://chatgpt.com/"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "cc6533d7a4bf2ba0",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -68,6 +79,7 @@
       {
         "id": "8c413ed97ea63be0",
         "type": "tabs",
+        "dimension": 39.61538461538461,
         "children": [
           {
             "id": "74ab548851923c50",
@@ -75,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tryparse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000 Index/000 Index.md"
+                "file": "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md"
               }
             }
           },
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000 Index/000 Index.md",
+                "file": "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000 Index/000 Index.md",
+                "file": "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,13 +163,21 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "41e61a5ae20db7c3",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 499.5
+    "width": 422.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -176,21 +196,13 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "715102d35d21e922",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,55 +216,56 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "1da84cc56b9ff74e",
+  "active": "7ec3eabc5d93fa28",
   "lastOpenFiles": [
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
-    "Media/Pasted image 20240519181054.png",
-    "200 Data Structures & Algorithms/209 Recursion/209.1 Factorial Recursion.md",
-    "Media/Pasted image 20240519180630.png",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220 Grokking Patterns.md",
+    "200 Data Structures/210 Binary Heap/210.1 Binary Heap.md",
     "000 Index/000 Index.md",
-    "200 Data Structures & Algorithms/200 Data Structures & Algorithms.md",
-    "200 Data Structures & Algorithms/211 Graph/211.1 Graph.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming",
-    "HashTable — Rewmove().1.svg.md",
-    "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
-    "200 Data Structures & Algorithms/220 Groking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
-    "200 Data Structures & Algorithms/202 String/202.6 Number of Good Pairs.md",
-    "200 Data Structures & Algorithms/202 String/202.5 Shortest Word Distance.md",
-    "200 Data Structures & Algorithms/202 String/202.4 Anagram.md",
-    "200 Data Structures & Algorithms/202 String/202.3 Palindrome.md",
-    "200 Data Structures & Algorithms/202 String/202.2 Reverse Vowels.md",
-    "200 Data Structures & Algorithms/202 String/202.1 Pangram.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 Post-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 In-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2 AVL Tree.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1 In-Order Traversal — Stack.md",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search — breadthFirstSearch().svg",
-    "200 Data Structures & Algorithms/212 Sorting/Diagrams/Depth First Search — depthFirstSearch().svg",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search.svg",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams",
+    "100 CSharp Fundamentals/105 Parse Methods.md",
+    "100 CSharp Fundamentals/107 User Input.md",
     "500 DSharpPlus/NinOnline Village Bot.canvas",
     "500 DSharpPlus/Ticket System.canvas",
+    "500 DSharpPlus/501 Ticket Management System.md",
     "Media/Pasted image 20230908104407.png",
     "Media/Pasted image 20230908104211.png",
     "Media/Pasted image 20230908103718.png",
     "Media/Pasted image 20230908103532.png",
     "Media/Pasted image 20230908103337.png",
+    "Media/Pasted image 20230908103243.png",
+    "Media/Pasted image 20230908103007.png",
+    "Media/SubitButton Interaction.png",
+    "Media/LMPF Dashboard Code.png",
+    "Media/Submission Form Code.png",
+    "500 DSharpPlus/500 DSharpPlus.md",
+    "500 DSharpPlus/--- Nin Online Bot.md",
     "500 DSharpPlus",
-    "200 Data Structures & Algorithms/207 Queue/Diagram",
-    "200 Data Structures & Algorithms/207 Queue",
-    "200 Data Structures & Algorithms/206 Stack/Diagrams",
-    "200 Data Structures & Algorithms/206 Stack",
-    "200 Data Structures & Algorithms/203 Array/Diagrams",
-    "200 Data Structures & Algorithms/205 HashTable/Diagrams",
-    "200 Data Structures & Algorithms/204 LinkedList/Diagrams/Doubly Linked List",
+    "200 Data Structures/206 Stack/206 Stack.md",
+    "200 Data Structures/203 Array/203 Array Implementation.md",
+    "200 Data Structures/207 Queue/207 Queue.md",
+    "200 Data Structures/207 Queue/Diagram",
+    "200 Data Structures/204 LinkedList/204.1 Singly Linked List.md",
+    "200 Data Structures/200 Data Structures.md",
+    "200 Data Structures/207 Queue",
+    "200 Data Structures/206 Stack/Diagrams",
+    "200 Data Structures/206 Stack/Untitled.md",
+    "200 Data Structures/205 HashTable/205 Hash Table Implementation.md",
+    "200 Data Structures/204 LinkedList/204.2 Doubly Linked List.md",
+    "200 Data Structures/206 Stack",
+    "200 Data Structures/203 Array/203.4 Rotate Array.md",
+    "200 Data Structures/203 Array/203.3 Move Zeros.md",
+    "200 Data Structures/203 Array/203.1 Merge Sorted Arrays.md",
+    "200 Data Structures/203 Array/203.2 Two Sum.md",
+    "100 CSharp Fundamentals/118 - OOP/119 Constructors/119.1 Default Constructor.md",
+    "200 Data Structures/201 Big-O Notation/201.4 O(n!) — Oh No!.md",
+    "200 Data Structures/203 Array/Diagrams",
+    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type/103.7 Nullable.md",
+    "100 CSharp Fundamentals/101 - 104 Data Type/103 Value Type.md",
+    "200 Data Structures/205 HashTable/Diagrams",
+    "100 CSharp Fundamentals/124 Collections/125 Generic Collections/125.1 List.md",
+    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.2 HashTable.md",
+    "100 CSharp Fundamentals/124 Collections/126 Non-Generic Collections/126.1 ArrayList.md",
+    "200 Data Structures/204 LinkedList/Diagrams/Doubly Linked List",
+    "200 Data Structures/204 LinkedList/Diagrams/Singly Linked List",
+    "200 Data Structures/204 LinkedList/Diagrams",
     "200 Data Structures/203 Array/Untitled.canvas",
     "200 Data Structures/--- Data Structures.canvas",
     "900 Game Development/900 Game Development.canvas",
