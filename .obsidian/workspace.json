@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e63f431806b3e710",
+            "id": "d7b25e92e60c9e5b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Index/000 Index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,24 @@
             }
           },
           {
-            "id": "ba628f220a50e8d6",
+            "id": "84e627e90077ba4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9d0e3cede82484c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.6 Delegate.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1da84cc56b9ff74e",
+            "id": "0361bc6f75ec9140",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -70,6 +82,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "3073e41ff8b87883",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "74ab548851923c50",
             "type": "leaf",
             "state": {
@@ -80,16 +102,6 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "3073e41ff8b87883",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
                 "sortOrder": "alphabetical"
               }
             }
@@ -108,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md"
               }
             }
           },
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,18 +163,42 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "10bba3676171f7a7",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 397.5
   },
   "right": {
     "id": "aea716f090603573",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "a1d1530192a83beb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a968ce94bf70f8b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 318.5,
     "collapsed": true
@@ -179,59 +215,59 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ba628f220a50e8d6",
+  "active": "84e627e90077ba4b",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-02-24 22.28.48.excalidraw.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.2 Handmade State Machine.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.1 Classic Implementation.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.3 Switch-Based State Machine.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1 State.md",
+    "400 Interview Questions/400 Interview Questions.md",
+    "100 CSharp Fundamentals/131 Events/131 Event.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.6 Delegate.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119 Constructors.md",
     "README.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.1 In-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.3 Pre-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.2 AVL Tree/208.2.2 Post-Order Traversal.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.3 Pre-Order Traversal — Stack.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.2 Post-Order Traversal — Stack.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1.1 In-Order Traversal — Stack.md",
-    "200 Data Structures & Algorithms/208 Trees/208.1 Binary Search Tree/208.1 Binary Search Tree — Recursion.md",
-    "200 Data Structures & Algorithms/202 String/202.1 Pangram.md",
-    "200 Data Structures & Algorithms/204 LinkedList/204.1 Singly Linked List.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
-    "Media/Pasted image 20240519181054.png",
-    "200 Data Structures & Algorithms/209 Recursion/209.1 Factorial Recursion.md",
-    "Media/Pasted image 20240519180630.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220 Grokking Patterns.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.1.2 Params.md",
+    "Media/Pasted image 20240523221435.png",
+    "Media/Pasted image 20240523220539.png",
     "000 Index/000 Index.md",
-    "200 Data Structures & Algorithms/200 Data Structures & Algorithms.md",
-    "200 Data Structures & Algorithms/211 Graph/211 Graph.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming",
-    "HashTable — Rewmove().1.svg.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
-    "200 Data Structures & Algorithms/202 String/202.6 Number of Good Pairs.md",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search — breadthFirstSearch().svg",
-    "200 Data Structures & Algorithms/212 Sorting/Diagrams/Depth First Search — depthFirstSearch().svg",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams/Breadth First Search.svg",
-    "200 Data Structures & Algorithms/213 Searching/Diagrams",
+    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125 Generic Collections.md",
+    "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
+    "200 Data Structures & Algorithms/205 HashTable/205 Hash Table Implementation.md",
+    "100 CSharp Fundamentals/124 — 126 Collections/124 Collections.md",
+    "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126.1 ArrayList.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.1 Array.md",
+    "Resources/YouTube/Blender Pixel Art.md",
+    "200 Data Structures & Algorithms/213 Searching/213.3 Breadth First Search (Graph).md",
+    "200 Data Structures & Algorithms/213 Searching/213.2 Depth First Search (Tree).md",
+    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/117 For-Each Loop.md",
+    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/114 For Loop.md",
+    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/116 Do-While Loop.md",
+    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/115 While Loop.md",
+    "100 CSharp Fundamentals/113 — 117Loops/113 Loops.md",
+    "Media/Pasted image 20240523111613.png",
+    "900 Game Development/900 Game Development.canvas",
+    "Media/Pasted image 20240522133302.png",
+    "400 Interview Questions/Diagrams/Hierarchical Inheritance.svg",
+    "400 Interview Questions/Diagrams/Multilevel Inheritance.svg",
+    "400 Interview Questions/Diagrams/Multiple inheritance.svg",
+    "400 Interview Questions/Diagrams/Single Inheritance.svg",
+    "400 Interview Questions/Diagrams",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/Diagrams/303.1.4 Switch Expression — Action.svg",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/Diagrams/303.1.4 Switch Expression — State.svg",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/Diagrams",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State",
+    "300 Design Patterns/303 Behavioral Patterns/303.1",
+    "400 Interview Questions",
+    "100 CSharp Fundamentals/130 — Lambda Expression",
+    "100 CSharp Fundamentals/129 — Anonymous Methods",
+    "100 CSharp Fundamentals/128 — Write to File",
+    "100 CSharp Fundamentals/127 — Read from File",
+    "100 CSharp Fundamentals/108 — Exception Handling",
     "500 DSharpPlus/NinOnline Village Bot.canvas",
     "500 DSharpPlus/Ticket System.canvas",
-    "Media/Pasted image 20230908104407.png",
-    "Media/Pasted image 20230908104211.png",
-    "Media/Pasted image 20230908103718.png",
-    "Media/Pasted image 20230908103532.png",
-    "Media/Pasted image 20230908103337.png",
-    "500 DSharpPlus",
-    "200 Data Structures & Algorithms/207 Queue/Diagram",
-    "200 Data Structures & Algorithms/207 Queue",
-    "200 Data Structures & Algorithms/206 Stack/Diagrams",
-    "200 Data Structures & Algorithms/206 Stack",
-    "200 Data Structures & Algorithms/203 Array/Diagrams",
-    "200 Data Structures & Algorithms/205 HashTable/Diagrams",
-    "200 Data Structures & Algorithms/204 LinkedList/Diagrams/Doubly Linked List",
     "200 Data Structures/203 Array/Untitled.canvas",
     "200 Data Structures/--- Data Structures.canvas",
-    "900 Game Development/900 Game Development.canvas",
     "000 Index/Untitled.canvas",
     "Untitled.canvas"
   ]

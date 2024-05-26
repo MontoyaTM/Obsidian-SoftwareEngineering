@@ -176,3 +176,8 @@ This index serves as a reference to a list of principles and practices for Softw
 302 — Structural Patterns
 
 303 — Behavioral Patterns
+303.1 — State
+	303.1.1 Classic Implementation
+	303.1.2 Handmade State Machine
+	303.1.3 Switch-Based State Machine
+	303.1.4 Switch Expression State Machine
