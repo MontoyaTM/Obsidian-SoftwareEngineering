@@ -287,7 +287,7 @@ public sealed class Employee
 
 Link(s): [[123 Abstraction]]
 
-Abstraction is a fundamental concept in OOP that allows you to <span style="color:#81fd83">hide the implementation</span> details of a <span style="color:#b562f9">class</span> or an <span style="color:#b562f9">object</span> so that you can focus on the essential features and behaviors. This can be achieve in many ways such as Interfaces, Abstract classes
+<span style="color:#81fd83">Abstraction</span> is a fundamental concept in OOP that allows you to <span style="color:#81fd83">hide the implementation details</span> of a <span style="color:#b562f9">class</span> or an <span style="color:#b562f9">object</span> so that you can focus on the essential features and behaviors. This can be achieve in many ways such as Interfaces, Abstract classes
 
 ``` run-csharp
 public class Employee

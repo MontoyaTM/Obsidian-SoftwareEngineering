@@ -27,19 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9d0e3cede82484c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.6 Delegate.md",
+                "file": "400 Interview Questions/400 Interview Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md"
+                "file": "400 Interview Questions/400 Interview Questions.md"
               }
             }
           },
@@ -141,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
+                "file": "400 Interview Questions/400 Interview Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
+                "file": "400 Interview Questions/400 Interview Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 572.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -217,14 +205,26 @@
   },
   "active": "84e627e90077ba4b",
   "lastOpenFiles": [
+    "100 CSharp Fundamentals/101 — 104 Data Type/103 Value Type/103.7 Nullable.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
+    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.3 Switch-Based State Machine.md",
     "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.2 Handmade State Machine.md",
     "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.1 Classic Implementation.md",
-    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.3 Switch-Based State Machine.md",
-    "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1.4 Switch Expression State Machine.md",
     "300 Design Patterns/303 Behavioral Patterns/303.1 State/303.1 State.md",
-    "400 Interview Questions/400 Interview Questions.md",
     "100 CSharp Fundamentals/131 Events/131 Event.md",
+    "100 CSharp Fundamentals/131 Events/131.1 EventHandler.md",
+    "900 Game Development/900 Game Development.canvas",
+    "400 Interview Questions/400 Interview Questions.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/123 Abstraction.md",
+    "100 CSharp Fundamentals/100 CSharp Fundamentals.md",
+    "100 CSharp Fundamentals/130 — Lambda Expression/130 Lambda Expression.md",
+    "100 CSharp Fundamentals/129 — Anonymous Methods/129 Anonymous Method.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/118 Object Oriented Programming.md",
+    "100 CSharp Fundamentals/109 — 112 Conditional Statements/109 Conditional Statements.md",
+    "100 CSharp Fundamentals/106 — Methods/106 Methods.md",
     "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.6 Delegate.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.7 Interfaces.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/103 Value Type.md",
     "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119 Constructors.md",
     "README.md",
     "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.1.2 Params.md",
@@ -233,20 +233,7 @@
     "000 Index/000 Index.md",
     "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125 Generic Collections.md",
     "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
-    "200 Data Structures & Algorithms/205 HashTable/205 Hash Table Implementation.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/124 Collections.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126.1 ArrayList.md",
-    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.1 Array.md",
-    "Resources/YouTube/Blender Pixel Art.md",
-    "200 Data Structures & Algorithms/213 Searching/213.3 Breadth First Search (Graph).md",
-    "200 Data Structures & Algorithms/213 Searching/213.2 Depth First Search (Tree).md",
-    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/117 For-Each Loop.md",
-    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/114 For Loop.md",
-    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/116 Do-While Loop.md",
-    "100 CSharp Fundamentals/113 — 117Loops/113 Loops/115 While Loop.md",
-    "100 CSharp Fundamentals/113 — 117Loops/113 Loops.md",
     "Media/Pasted image 20240523111613.png",
-    "900 Game Development/900 Game Development.canvas",
     "Media/Pasted image 20240522133302.png",
     "400 Interview Questions/Diagrams/Hierarchical Inheritance.svg",
     "400 Interview Questions/Diagrams/Multilevel Inheritance.svg",
