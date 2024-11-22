@@ -5,7 +5,7 @@ Links:
 ---
 
 > [!question] 
-# What are the main concepts of OOP? Classes? Objects?
+# Q.1: What are the main concepts of OOP? Classes? Objects?
 
 Link(s): [[118 Object Oriented Programming]], [[102.5.1 Class Object]], [[102.5 Class]]
 
@@ -81,7 +81,7 @@ class Program
 
 > [!question] 
 > 
-# What is Inheritance? Why is it important?
+# Q.2: What is Inheritance? Why is it important?
 
 Link(s): [[121 Inheritance]]
 
@@ -126,7 +126,7 @@ Inheritance is important because it allows for <span style="color:#81fd83">reusa
 
 > [!question] 
 >
-# What are the different types of Inheritance? 
+# Q.3: What are the different types of Inheritance? 
 
 Link(s):
 
@@ -257,7 +257,7 @@ class DerivedClass3 : BaseClass
 ---
 
 > [!question] 
-# How to prevent a class from being Inherited?
+# Q.4: How to prevent a class from being Inherited?
 
 Link(s):
 
@@ -283,17 +283,20 @@ public sealed class Employee
 ---
 
 > [!question] 
-# What is Abstraction?
+# Q.5: What is Abstraction?
 
 Link(s): [[123 Abstraction]]
 
-<span style="color:#81fd83">Abstraction</span> is a fundamental concept in OOP that allows you to <span style="color:#81fd83">hide the implementation details</span> of a <span style="color:#b562f9">class</span> or an <span style="color:#b562f9">object</span> so that you can focus on the essential features and behaviors. This can be achieve in many ways such as Interfaces, Abstract classes
+<span style="color:#81fd83">Abstraction</span> is a fundamental concept in OOP that allows you to <span style="color:#81fd83">hide the implementation details</span> of a <span style="color:#b562f9">class</span> and <span style="color:#81fd83">showing only the essential information to the user</span>. 
+
+This can be achieve in many ways such as <span style="color:#81fd83">Interfaces</span> or <span style="color:#81fd83">Abstract Classes or Methods</span>.
 
 ``` run-csharp
-public class Employee
+public abstract class Employee
 {
 	public int Experience { get; set; }
 	
+	public abstract void CalculateBonus();
 	public void CalculateSalary()
 	{
 		int salary = Experience * 300000;
@@ -301,27 +304,23 @@ public class Employee
 		Console.WriteLine("Salary: {0}", salary);
 		
 		CalculateBasicSalary(); // Hidden Methods
-		CalculateHRA();  // Hidden Methods
 	}
 	
 	public void CalculateBasicSalary()
 	{
 		...
 	}
-
-	public void CalculateHRA()
-	{
-		...
-	}
 }
 ```
 
-![[Pasted image 20240522133302.png]]
+An <span style="color:#81fd83">Abstract Class</span> is a <span style="color:#81fd83">restricted class</span> that <span style="color:#81fd83">cannot be used to create objects</span> (to access it, it must be inherited from another class).
+
+An <span style="color:#81fd83">Abstract Method</span> can <span style="color:#81fd83">only be used in an abstract class</span>, and it <span style="color:#81fd83">does not have a body</span>. The body is provided by the derived class (inherited from).
 
 --- 
 
 > [!question] 
-# What is Encapsulation?
+# Q.6: What is Encapsulation?
 
 Link(s): [[120 Encapsulation]]
 
@@ -363,7 +362,7 @@ public class Program
 ---
 
 > [!question] 
-# What is Polymorphism and what are its types? 
+# Q.7: What is Polymorphism and what are its types? 
 
 Link(s): [[122 Polymorphism]]
 
@@ -374,7 +373,7 @@ Polymorphism is achieved through <span style="color:#81fd83">Method Overloading<
 ---
 
 > [!question] 
-# What is Method Overloading? In how many ways a method can be overloaded?
+# Q.8: What is Method Overloading? In how many ways a method can be overloaded?
 
 Link(s): 
 
@@ -409,7 +408,7 @@ Method Overloading can be achieved by:
 ---
 
 > [!question] 
-# What is the difference between Overloading and Overriding?
+# Q.9: What is the difference between Overloading and Overriding?
 
 Link(s): 
 
@@ -440,11 +439,11 @@ public class DerivedClass : BaseClass
 ---
 
 > [!question] 
-# What is the difference between Method Overriding and Method Hiding?
+# Q.10: What is the difference between Method Overriding and Method Hiding?
 
 Link(s):
 
-<span style="color:#81fd83">Method Overriding</span> is having methods with the same name and signature but in <span style="color:#81fd83">different classes</span>.
+<span style="color:#81fd83">Method Overriding</span> is having methods with the same name and signature but in <span style="color:#81fd83">different classes</span>
 
 In <span style="color:#81fd83">Method Hiding</span>, you can hide the implementation of the methods of a base class from the derived class using the <span style="color:#b562f9">new</span> keyword. 
 
@@ -473,7 +472,7 @@ public class DerivedClass : BaseClass
 ---
 
 > [!question] 
-# What are the advantages and limitations of OOPS?
+# Q.11: What are the advantages and limitations of OOPS?
 
 Link(s):
 
@@ -491,7 +490,7 @@ Limitations:
 --- 
 
 > [!question] 
-# What is the difference between an Abstract class and an Interface?
+# Q.12: What is the difference between an Abstract class and an Interface?
 
 Link(s): 
 
@@ -519,6 +518,9 @@ public abstract class Employee
 ```
 
 An <span style="color:#81fd83">Interface</span> can only contain <span style="color:#e493fb">declaration</span> of methods. However, in the latest version of C#; it allows for defining the body of an interface. 
+
+An Interface is a contract that defines a set of methods, properties, and events that must be implemented.
+
 - Interfaces use the keyword: <span style="color:#b562f9">interface</span>
 - Interfaces supports multiple inheritance
 
@@ -533,7 +535,7 @@ interface IEmployee
 ---
 > [!question] 
 >  
-# When to use Interface and when Abstract class?
+# Q.13: When to use Interface and when Abstract class?
 
 Link(s): 
 
@@ -545,7 +547,7 @@ An <span style="color:#81fd83">Interface</span> is a good choice when you know t
 ---
 > [!question] 
 >  
-# Why to even create Interfaces?
+# Q.14: Why to even create Interfaces?
 
 Link(s): 
 
@@ -578,7 +580,7 @@ public class ContractEmployee : IEmployee
 --- 
 > [!question] 
 >  
-# Can Interface have a Constructor?
+# Q.15: Can Interface have a Constructor?
 
 Link(s):
 
@@ -587,7 +589,7 @@ No. Interfaces can only be derived from.
 --- 
 > [!question] 
 >  
-# Can you create an instance of an Abstract class or an Interface?
+# Q.16: Can you create an instance of an Abstract class or an Interface?
 
 Link(s):
 
@@ -598,7 +600,7 @@ However, Abstract classes allows for the use of constructors. The abstract const
 --- 
 > [!question] 
 >  
-# What are Access Specifiers? What is the default access modifier in a class?
+# Q.17: What are Access Specifiers? What is the default access modifier in a class?
 
 Link(s):
 
@@ -616,7 +618,7 @@ The default access modifier is internal.
 ---
 > [!question] 
 >  
-# What is Boxing and Unboxing?
+# Q.18: What is Boxing and Unboxing?
 
 Link(s): [[103 Value Type]], [[102 Reference Type]]
 
@@ -654,7 +656,7 @@ class Program
 ---
 > [!question] 
 >  
-# What is the difference between “String” and “StringBuilder”? When to use what?
+# Q.19: What is the difference between “String” and “StringBuilder”? When to use what?
 
 Link(s): [[102.2 String]], [[102.3 String Builder]]
 
@@ -693,7 +695,7 @@ If you plan on modifying a string multiple times, then a StringBuilder will be a
 ---
 > [!question] 
 >  
-# What are the basic string operations in C#?
+# Q.20: What are the basic string operations in C#?
 
 Link(s):
 
@@ -741,7 +743,7 @@ Console.WriteLine("Hello, my name is {0}, I am {1} years old", name, age);
 ---
 > [!question] 
 >  
-# What are Nullable types?
+# Q.21: What are Nullable types?
 
 Link(s): [[103.7 Nullable]]
 
@@ -773,7 +775,7 @@ Console.WriteLine(j);
 ---
 > [!question] 
 >  
-# Explain Generics in C#? When and why to use them?
+# Q.22: Explain Generics in C#? When and why to use them?
 
 Link(s): [[125 Generic Collections]]
 
@@ -816,7 +818,7 @@ static void Main(string[] args)
 --- 
 > [!question] 
 >  
-# How to implement Exception Handling in C#?
+# Q.23: How to implement Exception Handling in C#?
 
 Link(s): [[108 Exception Handling]]
 
@@ -876,7 +878,7 @@ private static void PrintStudenName(Student std)
 ---
 > [!question] 
 >  
-# Can we execute multiple Catch blocks?
+# Q.24: Can we execute multiple Catch blocks?
 
 Link(s):
 
@@ -905,8 +907,8 @@ static void Main(string[] args)
 
 ---
 > [!question] 
->  
- # What is a Finally block and give an example when to use it?
+  
+# Q.25 What is a Finally block and give an example when to use it?
 
 Link(s):
 
@@ -936,7 +938,7 @@ static void Main(string[] args)
 ---
 > [!question] 
 >  
-# Can we have only “Try” block without “Catch” block?
+# Q.26: Can we have only “Try” block without “Catch” block?
 
 Link(s):
 
@@ -969,7 +971,7 @@ static void Main(string[] args)
 ---
 > [!question] 
 >  
-# What is the difference between “throw ex” and “throw”?
+# Q.27: What is the difference between “throw ex” and “throw”?
 
 Link(s):
 
@@ -1008,7 +1010,7 @@ public static void DivideZeroByZero()
 ---
 > [!question] 
 >  
-# What are the Loop types in C#?
+# Q.28: What are the Loop types in C#?
 
 Link(s): [[113 Loops]], [[115 While Loop]], [[116 Do-While Loop]], [[114 For Loop]], [[117 For-Each Loop]]
 
@@ -1061,7 +1063,7 @@ foreach (var item in collection)
 ---
 > [!question] 
 >  
-# What is the difference between “continue” and “break” statement?
+# Q.29: What is the difference between “continue” and “break” statement?
 
 Link(s): 
 
@@ -1094,7 +1096,7 @@ for (int i = 0; i < 10; i++)
 ---
 > [!question] 
 >  
-# What is the difference between Array and ArrayList?
+# Q.30: What is the difference between Array and ArrayList?
 
 Link(s): [[102.1 Array]], [[126.1 ArrayList]]
 
@@ -1138,7 +1140,7 @@ foreach(var item in arrayList)
 ---
 > [!question] 
 >  
-# What is the difference between Arraylist and Hashtable?
+# Q.31: What is the difference between Arraylist and Hashtable?
 
 Link(s): [[205 Hash Table Implementation]]
 
@@ -1156,7 +1158,7 @@ In an <span style="color:#81fd83">ArrayList</span>, it stores object elements or
 ---
 > [!question] 
 >  
-# What are Collections in C# and what are their types?
+# Q.32: What are Collections in C# and what are their types?
 
 Link(s): [[124 Collections]], [[125 Generic Collections]], [[126 Non-Generic Collections]]
 
@@ -1185,7 +1187,7 @@ There are two main types of Collections:
 ---
 > [!question] 
 >  
-# What is IEnumerable in C#?
+# Q.33: What is IEnumerable in C#?
 
 Link(s):
 
@@ -1210,7 +1212,7 @@ class Program
 ---
 > [!question] 
 >  
-# What is the difference between IEnumerable and IEnumerator in C#?
+# Q.34: What is the difference between IEnumerable and IEnumerator in C#?
 
 Link(s):
 
@@ -1231,7 +1233,7 @@ IEnumerable and IEnumerator are related interfaces in C# that are used for itera
 ---
 > [!question] 
 >  
-# What is the difference between IEnumerable and IQueryable in C#? Why to use IQueryable in SQL queries?
+# Q.35: What is the difference between IEnumerable and IQueryable in C#? Why to use IQueryable in SQL queries?
 
 
 <span style="color:#81fd83">IQueryable</span> Interface provides similar functionality as IEnumerable Interface and is found under the System.LINQ namespace. 
@@ -1257,7 +1259,7 @@ IQueryable Interface is preferred when using SQL queries because it <span style=
 ---
 > [!question] 
 >  
-# What is the difference between “out” and “ref” parameters?
+# Q.36: What is the difference between “out” and “ref” parameters?
 
 Link(s):
 
@@ -1301,7 +1303,7 @@ Variables passed with the <span style="color:#b562f9">ref</span> keyword must be
 ---
 > [!question] 
 >  
-# What is the purpose of “params” keyword?
+# Q.37: What is the purpose of “params” keyword?
 
 Link(s): [[122.1.2 Params]]
 
@@ -1326,7 +1328,7 @@ PrintNumbers(array);
 ---
 > [!question] 
 >  
-# What is a Constructor and what are its types?
+# Q.38: What is a Constructor and what are its types?
 
 Link(s): [[119 Constructors]], [[119.1 Default Constructor]], [[119.2 Parameterized Constructor]], [[119.5 Static Constructor]], [[119.4 Private Constructor]], [[119.3 Copy Constructor]]
 
@@ -1357,7 +1359,7 @@ A <span style="color:#81fd83">constructor</span> is a special method that is cal
 ---
 > [!question] 
 >  
-# When to use Private constructor?
+# Q.39: When to use Private constructor?
 
 Link(s): 
 
@@ -1392,7 +1394,7 @@ public class Employee
 ---
 > [!question] 
 >  
-# What are Extension Methods in C#? When to use them?
+# Q.40: What are Extension Methods in C#? When to use them?
 
 Link(s): 
 
@@ -1426,7 +1428,7 @@ Extension methods are used when enhancing existing types, improve readability, u
 ---
 > [!question] 
 >  
-# What you mean by Delegate? When to use them?
+# Q.41: What you mean by Delegate? When to use them?
 
 Link(s): [[102.6 Delegate]]
 
@@ -1464,7 +1466,7 @@ public delegate int GeeksForGeeks(int G, int F, int G);
 ---
 > [!question] 
 >  
-# What are Multicast Delegates?
+# Q.42: What are Multicast Delegates?
 
 Link(s): [[102.6 Delegate]]
 
@@ -1518,7 +1520,7 @@ namespace Delegates
 ---
 > [!question] 
 >  
-# What are Anonymous Delegates in C#?
+# Q.43: What are Anonymous Delegates in C#?
 
 Link(s): [[102.6 Delegate]]
 
@@ -1544,7 +1546,7 @@ class Program
 ---
 > [!question] 
 >  
-# What are the differences between Events and Delegates?
+# Q.44: What are the differences between Events and Delegates?
 
 Link(s): [[131 Event]], [[102.6 Delegate]]
 
@@ -1627,7 +1629,7 @@ class Program
 ---
 > [!question] 
 >  
-# What is “this” keyword in C#? When to use it?
+# Q.45: What is “this” keyword in C#? When to use it?
 
 Link(s):
 
@@ -1731,7 +1733,7 @@ class Program
 ---
 > [!question] 
 >  
-# What is the purpose of “using” keyword in C#?
+# Q.46: What is the purpose of “using” keyword in C#?
 
 Link(s): 
 
@@ -1760,7 +1762,7 @@ static void Main(string[] args)
 ---
 > [!question] 
 >  
-# What is the difference between “is” and “as” operators?
+# Q.47: What is the difference between “is” and “as” operators?
 
 Link(s):
 
@@ -1793,7 +1795,7 @@ static void Main(string[] args)
 ---
 > [!question] 
 >  
-# What is the difference between “Readonly” and “Constant” variables?
+# Q.48: What is the difference between “Readonly” and “Constant” variables?
 
 Link(s):
 
@@ -1807,7 +1809,7 @@ Both <span style="color:#81fd83">readonly</span> and <span style="color:#81fd83"
 class Example
 {
 	public readonly int myReadOnly1 = 100;
-	public readonly int myReadOnly2 = 100;
+	public const int myReadOnly2 = 100;
 	
 	public Example(int i)
 	{
@@ -1819,7 +1821,7 @@ class Example
 ---
 > [!question] 
 >  
-# What is “Static” class? When to use it?
+# Q.49: What is “Static” class? When to use it?
 
 Link(s):
 
@@ -1828,7 +1830,7 @@ A <span style="color:#81fd83">static class</span> is a class which object cannot
 ---
 > [!question] 
 >  
-# What is the difference between “var” and “dynamic” in C#?
+<span style="color:#81fd83"># Q.50: What is the difference between “var” and “dynamic” in C#?</span>
 
 Link(s):
 
@@ -1850,7 +1852,7 @@ class Program
 ---
 > [!question] 
 >  
-# What is Enum keyword used for?
+# Q.51: What is Enum keyword used for?
 
 Link(s):
 

@@ -3,7 +3,9 @@
   "cssTheme": "GitHub Theme",
   "baseFontSize": 16,
   "theme": "obsidian",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "Align"
+  ],
   "baseFontSizeAction": true,
   "interfaceFontFamily": "JetBrains Mono"
 }
