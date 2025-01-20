@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md"
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.51103591918945
+    "width": 371.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "aea716f090603573",
@@ -206,44 +207,43 @@
   },
   "active": "77e19ea34f49d707",
   "lastOpenFiles": [
-    "Media/Pasted image 20241202103922.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.4 Start of LinkedList Cycle.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.3 Middle of Linked List.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.2 Linked List Cycle Length.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.3 Diagram.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.3 Solution.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.2 Solution.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.1 Linked List Cycle.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.2 Diagram.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3 Fast & Slow Pointers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.4 Solution.svg",
-    "Media/Pasted image 20241126100720.png",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.7 Rearrange a LinkedList.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
     "README.md",
-    "Media/Pasted image 20241122142105.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.1 Solution.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3 Fast & Slow Pointer Diagram.svg",
-    "Media/Pasted image 20241122115910.png",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Diagram.svg",
+    "Media/Pasted image 20250116174512.png",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.3 Middle of Linked List.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.6 Palindrome LinkedList.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.7 Solution.svg",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3 Fast & Slow Pointers.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.7 Diagram.svg",
+    "Media/Pasted image 20241212094035.png",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.1 Linked List Cycle.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.4 Start of LinkedList Cycle.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.4 Diagram.svg",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.4 Solution.svg",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.2 Linked List Cycle Length.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.9 Minimum Window Sort.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.8 Dutch National Flag.md",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.6 Solution.svg",
+    "Media/Pasted image 20241204210731.png",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.5 Diagram.svg",
     "200 Data Structures & Algorithms/204 LinkedList/204.1.1 Linked List Cycle.md",
     "200 Data Structures & Algorithms/204 LinkedList/204.1.2 Merge Sorted Linked List.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.9 Minimum Window Sort.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.8 Dutch National Flag.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.7 Subarrays with Product Less than a Target.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.6 Triplets with Smaller Sum.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.5 Triplet Sum Close to Target.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
     "200 Data Structures & Algorithms/200 Data Structures & Algorithms.md",
     "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/Diagrams/Drawing 2024-11-19 15.46.01.excalidraw.md",
-    "Template/--- Grokking.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220 Grokking Patterns.md",
-    "Template/--- Design Template.md",
     "200 Data Structures & Algorithms/205.1 Dictionary",
     "900 Game Development/10-man Roster.canvas",
     "900 Game Development/900 Game Development.canvas",
