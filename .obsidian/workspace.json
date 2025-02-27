@@ -18,19 +18,23 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
-            "id": "77e19ea34f49d707",
+            "id": "267cd02cc59a7b24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
+                "file": "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "214.1 Dynamic Programming"
             }
           }
         ],
@@ -48,23 +52,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c52a2fdc17eb834f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
-          },
-          {
             "id": "2a90e0d7692e0682",
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8c413ed97ea63be0",
@@ -77,7 +74,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -86,13 +85,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "queue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -100,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -109,8 +112,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md"
-              }
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 220.1.1 Average Contiguous Subarray"
             }
           },
           {
@@ -121,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -130,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 220.1.1 Average Contiguous Subarray"
             }
           },
           {
@@ -142,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
+                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +159,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 220.1.1 Average Contiguous Subarray"
             }
           },
           {
@@ -158,15 +169,16 @@
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
-              "state": {}
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.51103591918945,
-    "collapsed": true
+    "width": 371.51103591918945
   },
   "right": {
     "id": "aea716f090603573",
@@ -182,8 +194,12 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -195,65 +211,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77e19ea34f49d707",
+  "active": "267cd02cc59a7b24",
   "lastOpenFiles": [
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.7 Rearrange a LinkedList.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Cycle in a Circular Array.md",
+    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
+    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.4 Rotate a LinkedList.md",
+    "220 Grokking Patterns",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.3 Reverse Alternating Sub-list (K-Element).md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.2 Reverse every Sub-List (K-Element).md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.2 Solution.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.3 Solution.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.4 Solution.svg",
+    "Media/Pasted image 20250226171724.png",
+    "Media/Pasted image 20250221163145.png",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.1 Reverse a Sub-list.md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.1 Diagram.svg",
+    "Media/Pasted image 20250220090834.png",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6 In-place Reversal of a Linked List.md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.1 Solution.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5.1 Cyclic Sort.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams/220.5 Diagram.svg",
+    "Media/Pasted image 20250219194159.png",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4 Merge Intervals.md",
     "README.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.8 Diagram.svg",
-    "Media/Pasted image 20250116174512.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.3 Middle of Linked List.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.6 Palindrome LinkedList.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.7 Solution.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3 Fast & Slow Pointers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2 Two Pointers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.7 Diagram.svg",
-    "Media/Pasted image 20241212094035.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.1 Linked List Cycle.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.4 Start of LinkedList Cycle.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.4 Diagram.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.5 Good Numbers.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.4 Solution.svg",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/220.3.2 Linked List Cycle Length.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.9 Minimum Window Sort.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.2 Non-Duplicate Number.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.8 Dutch National Flag.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.6 Solution.svg",
-    "Media/Pasted image 20241204210731.png",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams/220.3.5 Diagram.svg",
-    "200 Data Structures & Algorithms/204 LinkedList/204.1.1 Linked List Cycle.md",
-    "200 Data Structures & Algorithms/204 LinkedList/204.1.2 Merge Sorted Linked List.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.3 Fast & Slow Pointer",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.7 Subarrays with Product Less than a Target.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.6 Triplets with Smaller Sum.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.5 Triplet Sum Close to Target.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.4 Triplet Sum to Zero.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.3 Squaring Sorted Array.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
-    "200 Data Structures & Algorithms/200 Data Structures & Algorithms.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.2 Two Pointers/Diagrams/Drawing 2024-11-19 15.46.01.excalidraw.md",
-    "200 Data Structures & Algorithms/205.1 Dictionary",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/Untitled.md",
+    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.5 Cyclic Sort/220.5.3.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5.2 Find the Missing Number.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5 Cyclic Sort.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.2 Insert Interval.md",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.1 Merge Intervals.md",
+    "220 Grokking Patterns/Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.5 Minimum Meeting Rooms.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.4 Conflicting Appointments.md",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.3 Intervals Intersection.md",
+    "200 Data Structures & Algorithms/213 Searching/213.1 Breadth First Search (Tree).md",
+    "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
+    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.4 Queue.md",
+    "000 Index/000 Index.md",
+    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125 Generic Collections.md",
+    "400 Interview Questions/400 Interview Questions.md",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals",
+    "200 Data Structures & Algorithms/220 Grokking Patterns/220.4 Sliding Window",
+    "220 Grokking Patterns/Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.3 Fast & Slow Pointer",
     "900 Game Development/10-man Roster.canvas",
     "900 Game Development/900 Game Development.canvas",
-    "300 Design Patterns/302 Structural Patterns/302.1 Adapter Pattern/Diagrams",
-    "300 Design Patterns/302 Structural Patterns/302.1 Adapter Pattern",
-    "300 Design Patterns/301 Creational Patterns/301.5 Singleton/Diagrams",
-    "300 Design Patterns/301 Creational Patterns/301.5 Singleton",
-    "300 Design Patterns/301 Creational Patterns/301.4 Prototype Patterns/Diagram",
-    "300 Design Patterns/301 Creational Patterns/301.4 Prototype Patterns",
-    "300 Design Patterns/301 Creational Patterns/301.2 Abstract Factory/Diagrams",
     "500 DSharpPlus/NinOnline Village Bot.canvas",
     "500 DSharpPlus/Ticket System.canvas",
     "200 Data Structures/203 Array/Untitled.canvas",
