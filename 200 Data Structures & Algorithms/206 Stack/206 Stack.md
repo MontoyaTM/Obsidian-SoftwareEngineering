@@ -83,8 +83,8 @@ public void Push(int data)
 		return;
 	}
 
-	node.next = top;
-	top = node;
+	curr.next = top;
+	top = curr;
 	this.length++;
 }
 ```

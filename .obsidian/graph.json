@@ -8,44 +8,58 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"400 Interview Questions\"  ",
+      "query": "path:\"220 Grokking Patterns\"  ",
       "color": {
         "a": 1,
-        "rgb": 15585031
-      }
-    },
-    {
-      "query": "path: \"200 Data Structures & Algorithms\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16743992
+        "rgb": 14701138
       }
     },
     {
       "query": "path:\"100 CSharp Fundamentals\"  ",
       "color": {
         "a": 1,
-        "rgb": 3319501
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"200 Data Structures & Algorithms\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     },
     {
       "query": "path:\"300 Design Patterns\"  ",
       "color": {
         "a": 1,
-        "rgb": 7858564
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"400 Interview Questions\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "showArrow": true,
+  "textFadeMultiplier": -2.2,
+  "nodeSizeMultiplier": 1.478125,
+  "lineSizeMultiplier": 1.45260416666667,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.13873223932666157,
+  "centerStrength": 0.328125,
+  "repelStrength": 13.75,
+  "linkStrength": 0.942708333333333,
+  "linkDistance": 238,
+  "scale": 0.059326171875000513,
   "close": true
 }

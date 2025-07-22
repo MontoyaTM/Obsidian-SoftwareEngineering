@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "267cd02cc59a7b24",
+            "id": "2718531ece9a3c1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
+                "file": "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "214.1 Dynamic Programming"
+              "title": "102 Reference Type"
             }
           }
         ],
@@ -48,11 +48,11 @@
     "type": "split",
     "children": [
       {
-        "id": "75278a36ed52b645",
+        "id": "3d4283fbeaf99380",
         "type": "tabs",
         "children": [
           {
-            "id": "2a90e0d7692e0682",
+            "id": "62cb30d81d4c9569",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -73,7 +73,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -85,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "queue",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.51103591918945
+    "width": 311.5
   },
   "right": {
     "id": "aea716f090603573",
@@ -211,6 +212,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
@@ -218,58 +220,57 @@
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "267cd02cc59a7b24",
+  "active": "2718531ece9a3c1f",
   "lastOpenFiles": [
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Fibonacci Sequence.md",
-    "200 Data Structures & Algorithms/214 Dynamic Programming/214.1 Dynamic Programming.md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.4 Rotate a LinkedList.md",
-    "220 Grokking Patterns",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.3 Reverse Alternating Sub-list (K-Element).md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.2 Reverse every Sub-List (K-Element).md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.2 Solution.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.3 Solution.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.4 Solution.svg",
-    "Media/Pasted image 20250226171724.png",
-    "Media/Pasted image 20250221163145.png",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6.1 Reverse a Sub-list.md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.1 Diagram.svg",
-    "Media/Pasted image 20250220090834.png",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/220.6 In-place Reversal of a Linked List.md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams/220.6.1 Solution.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5.1 Cyclic Sort.md",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams/220.5 Diagram.svg",
-    "Media/Pasted image 20250219194159.png",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4 Merge Intervals.md",
-    "README.md",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/Untitled.md",
-    "220 Grokking Patterns/Grokking Patterns/220.6 In-place Reversal (Linked List)",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.5 Cyclic Sort/220.5.3.md",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5.2 Find the Missing Number.md",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/220.5 Cyclic Sort.md",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.2 Insert Interval.md",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.1 Merge Intervals.md",
-    "220 Grokking Patterns/Grokking Patterns/220.2 Two Pointers/220.2.1 Two Sum.md",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.5 Minimum Meeting Rooms.md",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.4 Conflicting Appointments.md",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/220.4.3 Intervals Intersection.md",
-    "200 Data Structures & Algorithms/213 Searching/213.1 Breadth First Search (Tree).md",
-    "100 CSharp Fundamentals/124 — 126 Collections/126 Non-Generic Collections/126 Non-Generic Collections.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.4 Queue.md",
-    "000 Index/000 Index.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125 Generic Collections.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/101 Data Type.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.1 Array.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.4 Private Constructor.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.3 Copy Constructor.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.2 Parameterized Constructor.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.1 Default Constructor.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119 Constructors.md",
     "400 Interview Questions/400 Interview Questions.md",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.4 Merge Intervals",
-    "200 Data Structures & Algorithms/220 Grokking Patterns/220.4 Sliding Window",
-    "220 Grokking Patterns/Grokking Patterns/220.3 Fast & Slow Pointer/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.3 Fast & Slow Pointer",
+    "000 Index/000 Index.md",
+    "100 CSharp Fundamentals/118 — 123 OOP/120 Encapsulation.md",
+    "400 Interview Questions/My Response.md",
+    "README.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1.2 Maximum Sum Subarray of Size K.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1 Sliding Window.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.7 Interfaces.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1.3 Smallest Subarray With a Greater Sum.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1.4 (Fruits & Basket) Longest Substring with K Distinct Characters.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/220.1.5 Longest Substring with Same Letters after Replacement.md",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/Diagrams/220.1.4 Diagram.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/Diagrams/220.1.3 Diagram.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/220.9.4 Longest Palindrome.md",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/220.9.3 Maximum Number of Balloons.md",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/220.9.2 Largest Unique Number.md",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/220.9.1 First Non-Repeating Characters.md",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/220.9 Hash Map.md",
+    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack/220.8.5 Remove All Adjacent Duplicates in String II.md",
+    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack/220.8.4 Daily Temperatures.md",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams/220.5 Diagram.svg",
+    "Media/Pasted image 20250331203628.png",
+    "Media/Pasted image 20250331203517.png",
+    "Media/Pasted image 20250331203512.png",
+    "Media/Pasted image 20250331203456.png",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams/220.9.4 Solution.svg",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams/220.9.2 Solution.svg",
+    "Media/Pasted image 20250324113408.png",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map",
+    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack",
+    "220 Grokking Patterns/Grokking Patterns/220.7 Stacks/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.7 Stacks",
+    "220 Grokking Patterns",
+    "220 Grokking Patterns/Grokking Patterns/220.6 Linked List (In-place Reversal)/Diagrams",
+    "220 Grokking Patterns/Grokking Patterns/220.6 Linked List (In-place Reversal)",
+    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams",
     "900 Game Development/10-man Roster.canvas",
     "900 Game Development/900 Game Development.canvas",
     "500 DSharpPlus/NinOnline Village Bot.canvas",

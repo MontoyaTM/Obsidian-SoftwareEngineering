@@ -1,6 +1,4 @@
 .theme-dark .myclass {
     color: #cccccc;
-    --text-normal: #cccccc;
-    --h1-color: #00cc00;
-    background-color: #0f0f23; 
+    background-color: #0e1117; 
 }
