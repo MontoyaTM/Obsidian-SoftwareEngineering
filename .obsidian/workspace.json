@@ -113,87 +113,10 @@
   "right": {
     "id": "e7874ace27fd879e",
     "type": "split",
-    "children": [
-      {
-        "id": "67f9b4ec1bb7eb19",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "28a0330d259ddcce",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "6ac6e7788e5e6125",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "4079cda3c1eee909",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "6bde375841c4688c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "3cab03f2526472b6",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
-            }
-          }
-        ],
-        "currentTab": 4
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 686.5
+    "width": 686.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,7 +133,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "c3d029d1b6f7f4d7",
+  "active": "df13214f1dcdc676",
   "lastOpenFiles": [
     "000 Index/000 Template.md",
     "500 Blazor/Server Management App/501 Static SSR/501.2 Razor Syntax Implicit Razor Expression.md",
