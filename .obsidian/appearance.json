@@ -1,13 +1,5 @@
 {
-  "accentColor": "",
   "cssTheme": "GitHub Theme",
-  "baseFontSize": 22,
-  "theme": "obsidian",
-  "enabledCssSnippets": [
-    "Align",
-    "edit"
-  ],
-  "baseFontSizeAction": true,
   "interfaceFontFamily": "JetBrains Mono",
   "textFontFamily": "JetBrains Mono"
 }

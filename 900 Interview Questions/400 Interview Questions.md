@@ -152,7 +152,7 @@ class DerivedClass : BaseClass
 }
 ```
 
-<span style="color:#81fd83">Multiple inheritance</span> is a feature where a class can inherit from more than one base class. However, C# does not support multiple inheritance for classe. Instead, C# supports multiple inheritance through <span style="color:#00eeff">interfaces</span>.
+<span style="color:#81fd83">Multiple inheritance</span> is a feature where a class can inherit from more than one base class. However, C# does not support multiple inheritance for classes. Instead, C# supports multiple inheritance through <span style="color:#00eeff">interfaces</span>.
 
 ![[Multiple inheritance.svg| 500]]
 

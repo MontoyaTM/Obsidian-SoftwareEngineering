@@ -1,58 +1,55 @@
 {
   "main": {
-    "id": "918ce51d2869ca91",
+    "id": "0ead3f1c02f03fee",
     "type": "split",
     "children": [
       {
-        "id": "3aa716f11947cae2",
+        "id": "4e87afb79a5a2cdf",
         "type": "tabs",
         "children": [
           {
-            "id": "d7b25e92e60c9e5b",
+            "id": "c3d029d1b6f7f4d7",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "500 Blazor/Server Management App/501 Static SSR/501.2 Razor Syntax Implicit Razor Expression.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "README"
+              "title": "501.2 Razor Syntax Implicit Razor Expression"
             }
           },
           {
-            "id": "2718531ece9a3c1f",
+            "id": "be46162568efcc0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 CSharp Fundamentals/101 — 104 Data Type/102 Reference Type/102.2 String.md",
+                "file": "000 Index/000 Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "102.2 String"
+              "title": "000 Template"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3764fd8e778febca",
+    "id": "306dd7326006d68f",
     "type": "split",
     "children": [
       {
-        "id": "3d4283fbeaf99380",
+        "id": "1d07232dedab3f97",
         "type": "tabs",
         "children": [
           {
-            "id": "62cb30d81d4c9569",
+            "id": "b4c69496193d5c99",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -64,11 +61,11 @@
         ]
       },
       {
-        "id": "8c413ed97ea63be0",
+        "id": "1a1801fde0b66ea8",
         "type": "tabs",
         "children": [
           {
-            "id": "3073e41ff8b87883",
+            "id": "df13214f1dcdc676",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -81,7 +78,17 @@
             }
           },
           {
-            "id": "74ab548851923c50",
+            "id": "d18b2ece7f6530e9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "73bbd769a233989a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -96,63 +103,27 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "e7874ace27fd879e",
+    "type": "split",
+    "children": [
+      {
+        "id": "67f9b4ec1bb7eb19",
+        "type": "tabs",
+        "children": [
           {
-            "id": "372ebf6b766c0b92",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "f1f61336fef6e93b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 220.1.1 Average Contiguous Subarray"
-            }
-          },
-          {
-            "id": "e364ce91a9cd8096",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "bd75577b9689489d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 220.1.1 Average Contiguous Subarray"
-            }
-          },
-          {
-            "id": "be63f63c4f09ed67",
+            "id": "28a0330d259ddcce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Data Structures & Algorithms/220 Grokking Patterns/220.1 Sliding Window/220.1.1 Average Contiguous Subarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,123 +133,118 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 220.1.1 Average Contiguous Subarray"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "2c38b4671f74cb8f",
+            "id": "6ac6e7788e5e6125",
             "type": "leaf",
             "state": {
-              "type": "side-panel-control-view",
-              "state": {},
-              "icon": "viewIcon",
-              "title": "Markdown-Autocomplete"
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 306.5
-  },
-  "right": {
-    "id": "aea716f090603573",
-    "type": "split",
-    "children": [
-      {
-        "id": "cd3d3ab14f935fca",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "b05064e9c96e2c8f",
+            "id": "4079cda3c1eee909",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "tag",
               "state": {
                 "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6bde375841c4688c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "edge-tts:Read note aloud": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "obsidian-git:Open Git source control": false,
-      "edge-tts:Read note aloud": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "3073e41ff8b87883",
+  "active": "c3d029d1b6f7f4d7",
   "lastOpenFiles": [
+    "000 Index/000 Template.md",
+    "500 Blazor/Server Management App/501 Static SSR/501.2 Razor Syntax Implicit Razor Expression.md",
+    "500 Blazor/Server Management App/501 Static SSR/501.1 Two Types of Components.md",
     "000 Index/000 Index.md",
-    "Resources/YouTube/Nin Online Combat I Dialogue.md",
-    "400 Interview Questions/400 Interview Questions.md",
-    "100 CSharp Fundamentals/131 Events/131.1 EventHandler.md",
-    "100 CSharp Fundamentals/130 — Lambda Expression/130 Lambda Expression.md",
-    "100 CSharp Fundamentals/129 — Anonymous Methods/129 Anonymous Method.md",
-    "100 CSharp Fundamentals/127 — Read from File/127 Read from File.md",
-    "100 CSharp Fundamentals/128 — Write to File/128 Write to File.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.5 Stack.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.4 Queue.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.3 HashSet.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.2 Dictionary.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125.1 List.md",
-    "100 CSharp Fundamentals/124 — 126 Collections/125 Generic Collections/125 Generic Collections.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/123 Abstraction.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/121 Inheritance.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/120 Encapsulation.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/118 Object Oriented Programming.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.3 Method Hiding.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.2 Method Overriding.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.1.2 Params.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122.1 Method Overloading.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/122 Polymorphism/122 Polymorphism.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.5 Static Constructor.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.4 Private Constructor.md",
-    "100 CSharp Fundamentals/118 — 123 OOP/119 Constructors/119.3 Copy Constructor.md",
-    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/Diagrams/220.1.4 Diagram.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.1 Sliding Window/Diagrams/220.1.3 Diagram.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams/220.5 Diagram.svg",
-    "Media/Pasted image 20250331203628.png",
-    "Media/Pasted image 20250331203517.png",
-    "Media/Pasted image 20250331203512.png",
-    "Media/Pasted image 20250331203456.png",
-    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams/220.9.4 Solution.svg",
-    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams/220.9.2 Solution.svg",
-    "Media/Pasted image 20250324113408.png",
-    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.9 Hash Map",
-    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.8 Monotonic Stack",
-    "220 Grokking Patterns/Grokking Patterns/220.7 Stacks/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.7 Stacks",
-    "220 Grokking Patterns",
-    "220 Grokking Patterns/Grokking Patterns/220.6 Linked List (In-place Reversal)/Diagrams",
-    "220 Grokking Patterns/Grokking Patterns/220.6 Linked List (In-place Reversal)",
-    "220 Grokking Patterns/Grokking Patterns/220.5 Cyclic Sort/Diagrams",
-    "900 Game Development/10-man Roster.canvas",
-    "900 Game Development/900 Game Development.canvas",
-    "500 DSharpPlus/NinOnline Village Bot.canvas",
-    "500 DSharpPlus/Ticket System.canvas",
-    "200 Data Structures/203 Array/Untitled.canvas",
-    "200 Data Structures/--- Data Structures.canvas",
-    "000 Index/Untitled.canvas",
-    "Untitled.canvas"
+    "100 CSharp Fundamentals/101 — 104 Data Type/101 Data Type.md",
+    "Template/--- Template.md",
+    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method/301.1 Factory Method.md",
+    "220 Grokking Patterns/Grokking Patterns/220.2 Two Pointers/Diagrams/Drawing 2024-11-19 15.46.01.excalidraw.md",
+    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method/301 Factory.md",
+    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method/301 Inner Factory.md",
+    "300 Design Patterns/301 Creational Patterns/301.1 Factory Method/301 Factory Method.md",
+    "200 Data Structures & Algorithms/207 Queue/207 Queue.md",
+    "100 CSharp Fundamentals/101 — 104 Data Type/103 Value Type/Drawing 2026-02-02 13.03.28.excalidraw.md",
+    "500 Blazor/Server Management App/502 Interactivity/502.4 Interacivity Location.md",
+    "500 Blazor/500.1 Blazor Introduction.md",
+    "Template/--- Grokking.md",
+    "Template/--- Markdown.md",
+    "Template/--- Pattern Template.md",
+    "Template/--- Design Template.md",
+    "Template/--- Basic.md",
+    "200 Data Structures & Algorithms/202 String/202.1 Pangram.md",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/503.12 CSS Isolation.md",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/503.11 Display people online.md",
+    "Media/PNG/Pasted image 20260401212246.png",
+    "2026-04-01.md",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/503.10 Use if statement to output data conditionally.md",
+    "Media/PNG/Pasted image 20260401211604.png",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/503.9 Reuse routable component as non-routable.md",
+    "Media/PNG/Pasted image 20260401210501.png",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams/007 Diagram.svg",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams/006 Diagram.svg",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams/005 Diagram.svg",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams/ServerComponent.svg",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams/Parent Child Component.svg",
+    "Media/PNG/Pasted image 20260401101612.png",
+    "Media/PNG/Pasted image 20260401092005.png",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component/Diagrams",
+    "500 Blazor/Server Management App/503 Non-Routable Razor Component",
+    "500 Blazor/Server Management App/502 Interactivity/Diagrams",
+    "500 Blazor/Server Management App/502 Interactivity",
+    "500 Blazor/Server Management App/501 Static SSR",
+    "500 Blazor/Server Management App",
+    "500 Blazor/Diagrams",
+    "500 Blazor"
   ]
 }
