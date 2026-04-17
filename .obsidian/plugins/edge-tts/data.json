@@ -36,15 +36,15 @@
     }
   },
   "floatingPlayerPosition": {
-    "x": 1650,
-    "y": 909
+    "x": 1318,
+    "y": 1270
   },
   "disablePlaybackControlPopover": false,
   "enableReplayOption": true,
   "enableQueueFeature": true,
   "queueManagerPosition": null,
   "autoPauseOnWindowBlur": false,
-  "chunkSize": 9000,
   "enableExperimentalFeatures": false,
-  "reducedNoticesOnMobile": true
+  "reducedNoticesOnMobile": true,
+  "chunkSize": 9000
 }

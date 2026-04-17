@@ -28,11 +28,11 @@ views:
         direction: ASC
     columnSize:
       file.name: 955
+      note.tags: 581
 
 ```
 
 # 200 Data Structures & Algorithms
-
 ```base
 properties:
   file.name:
@@ -61,9 +61,6 @@ views:
 ```
 
 # 220 Grokking Patterns
-
-
-
 ```base
 properties:
   file.name:
@@ -91,12 +88,7 @@ views:
 
 ```
 
-
-
-
-
 # 300 Design Patterns
-
 ```base
 properties:
   file.name:
@@ -125,7 +117,6 @@ views:
 ```
 
 # 500 Blazor
-
 ```base
 properties:
   file.name:
@@ -154,7 +145,6 @@ views:
 ```
 
 # 900 Interview Questions
-
 ```base
 properties:
   file.name:

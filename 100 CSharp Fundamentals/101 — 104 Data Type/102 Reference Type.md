@@ -1,11 +1,10 @@
-Status: 
-Tag: #ReferenceType 
-Links: [[101 Data Type]]
-
 ---
-
-> [!note] 
->  # Reference Type
+tags:
+  - Reference-Type
+links:
+  - "[[101 Data Type]]"
+---
+# Reference Type
 
 Unlike value types, a reference type doesn't store its value directly. Instead, it stores the address where the value is being stored. In other words, a reference type contains a pointer to another memory location that holds the data.
 

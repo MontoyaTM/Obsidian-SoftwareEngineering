@@ -1,5 +1,9 @@
 {
   "cssTheme": "GitHub Theme",
   "interfaceFontFamily": "JetBrains Mono",
-  "textFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono",
+  "enabledCssSnippets": [
+    "Align",
+    "edit"
+  ]
 }
